@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [suite]">
+  <test name="test">
+    <classes>
+      <class name="com.cucumber.TestRunner.BookTicket"/>
+      <class name="com.cucumber.TestRunner.RegistrationRunner"/>
+    </classes>
+  </test> <!-- test -->
+</suite> <!-- Failed suite [suite] -->
