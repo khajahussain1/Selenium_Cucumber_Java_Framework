@@ -19,11 +19,11 @@ node('master') {
                
                }
                
-               stage('Deployment Stage') {
+              // stage('Deployment Stage') {
             
-                   bat label: '', script: 'mvn deploy'
+                 //  bat label: '', script: 'mvn deploy'
                                   
-               }
+              // }
                
                 stage('Reports Stage') {
             
