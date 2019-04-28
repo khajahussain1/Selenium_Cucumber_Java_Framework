@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="suite">
-	<test name="test">
+	<test name="BookTick">
 		<classes>
 			<class name="com.cucumber.TestRunner.BookTicket" />
 		</classes>
 	</test>
 	
-	<test name="test">
+	<test name="Registration">
 		<classes>
 			<class name="com.cucumber.TestRunner.RegistrationRunner" />
 		</classes>
