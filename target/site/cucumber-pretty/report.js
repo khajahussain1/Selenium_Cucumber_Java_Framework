@@ -7,11 +7,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 20768620134,
+  "duration": 16924930356,
   "status": "passed"
 });
 formatter.before({
-  "duration": 69097,
+  "duration": 74383,
   "status": "passed"
 });
 formatter.scenario({
@@ -143,42 +143,42 @@ formatter.match({
   "location": "HomepageSteps.launch_the_spicejet_application()"
 });
 formatter.result({
-  "duration": 39691335,
+  "duration": 48481480,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.move_to_mouse_on_Login_SignUp_button()"
 });
 formatter.result({
-  "duration": 302072505,
+  "duration": 230630629,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.move_to_the_mouse_SpiceCash_SpiceClub_Member_button()"
 });
 formatter.result({
-  "duration": 926954653,
+  "duration": 442234543,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.move_to_the_mouse_Signup_button()"
 });
 formatter.result({
-  "duration": 1091978401,
+  "duration": 1069168044,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.click_on_Signup_button()"
 });
 formatter.result({
-  "duration": 6036805104,
+  "duration": 5912467896,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.user_land_on_registration_page()"
 });
 formatter.result({
-  "duration": 114785,
+  "duration": 91753,
   "status": "passed"
 });
 formatter.match({
@@ -191,7 +191,7 @@ formatter.match({
   "location": "RegistrationSteps.enter_firstname_as(String)"
 });
 formatter.result({
-  "duration": 293422121,
+  "duration": 609451850,
   "status": "passed"
 });
 formatter.match({
@@ -204,7 +204,7 @@ formatter.match({
   "location": "RegistrationSteps.enter_lastname_as(String)"
 });
 formatter.result({
-  "duration": 322795294,
+  "duration": 188699057,
   "status": "passed"
 });
 formatter.match({
@@ -217,7 +217,7 @@ formatter.match({
   "location": "RegistrationSteps.enter_mobile_number_as(String)"
 });
 formatter.result({
-  "duration": 331461160,
+  "duration": 276558147,
   "status": "passed"
 });
 formatter.match({
@@ -230,7 +230,7 @@ formatter.match({
   "location": "RegistrationSteps.enter_password_as(String)"
 });
 formatter.result({
-  "duration": 233262864,
+  "duration": 219328101,
   "status": "passed"
 });
 formatter.match({
@@ -243,7 +243,7 @@ formatter.match({
   "location": "RegistrationSteps.enter_confirm_password_as(String)"
 });
 formatter.result({
-  "duration": 228366014,
+  "duration": 629493882,
   "status": "passed"
 });
 formatter.match({
@@ -256,7 +256,7 @@ formatter.match({
   "location": "RegistrationSteps.select_day_as(String)"
 });
 formatter.result({
-  "duration": 289147146,
+  "duration": 416602037,
   "status": "passed"
 });
 formatter.match({
@@ -269,7 +269,7 @@ formatter.match({
   "location": "RegistrationSteps.select_month_as(String)"
 });
 formatter.result({
-  "duration": 375754832,
+  "duration": 219638474,
   "status": "passed"
 });
 formatter.match({
@@ -282,7 +282,7 @@ formatter.match({
   "location": "RegistrationSteps.select_year_as(String)"
 });
 formatter.result({
-  "duration": 522461739,
+  "duration": 200974236,
   "status": "passed"
 });
 formatter.match({
@@ -295,37 +295,37 @@ formatter.match({
   "location": "RegistrationSteps.email_address_as(String)"
 });
 formatter.result({
-  "duration": 360742204,
+  "duration": 267645711,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.check_on_checkbox()"
 });
 formatter.result({
-  "duration": 116444151,
+  "duration": 104379418,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.click_on_submit_button()"
 });
 formatter.result({
-  "duration": 3649247085,
+  "duration": 3281302083,
   "status": "passed"
 });
 formatter.after({
-  "duration": 109498,
+  "duration": 79670,
   "status": "passed"
 });
 formatter.after({
-  "duration": 72873,
+  "duration": 80802,
   "status": "passed"
 });
 formatter.after({
-  "duration": 72495,
+  "duration": 3468208005,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3197806858,
+  "duration": 83823,
   "status": "passed"
 });
 });

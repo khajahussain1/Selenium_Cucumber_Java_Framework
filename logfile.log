@@ -1,0 +1,30 @@
+2019-04-28 21:48:35,203 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-04-28 21:48:35,203 INFO  [Log] X 
+2019-04-28 21:48:35,203 INFO  [Log] X 
+2019-04-28 21:48:36,175 INFO  [Log] **************************************************************************************** 
+2019-04-28 21:48:36,175 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-04-28 21:48:36,175 INFO  [Log] **************************************************************************************** 
+2019-04-28 21:48:53,323 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 21:48:53,441 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-04-28 21:48:53,589 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 21:48:53,886 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-04-28 21:48:54,858 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 21:48:54,957 INFO  [Log] Signup_button is found 
+2019-04-28 21:48:55,028 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 21:49:00,872 INFO  [Log] Signup button is found 
+2019-04-28 21:49:01,177 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 21:49:01,486 INFO  [Log] FirstName text box is found on Registration page 
+2019-04-28 21:49:01,486 INFO  [Log] khaja is entered as First Name on the Registration page 
+2019-04-28 21:49:01,676 INFO  [Log] Last Name text box is found on Registration page 
+2019-04-28 21:49:01,676 INFO  [Log] hussain is entered as Last Name on the Registration page 
+2019-04-28 21:49:01,955 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-04-28 21:49:01,955 INFO  [Log] 7358681940 is entered as Email on the Registration page 
+2019-04-28 21:49:02,176 INFO  [Log] Password text box is found on the Registratio page 
+2019-04-28 21:49:02,176 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-04-28 21:49:02,807 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-04-28 21:49:02,807 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-04-28 21:49:03,225 INFO  [Log] Day drop down is selected on Registration page 
+2019-04-28 21:49:03,226 INFO  [Log] 4 is selected as day on the Registration page 
+2019-04-28 21:49:10,783 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-04-28 21:49:10,783 INFO  [Log] X 
+2019-04-28 21:49:10,783 INFO  [Log] X 
