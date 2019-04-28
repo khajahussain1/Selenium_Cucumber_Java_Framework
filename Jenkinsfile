@@ -2,14 +2,7 @@ pipeline {
     agent any 
     stages {
     
-        stage('SCM Checkout stage') {
-            steps {
-                git 'https://github.com/khajahussain1/Selenium_Cucumber_Framework'                   
-
-                }
- 
-               }
-        
+                
         stage('Compile Stage') {
             steps {
                     def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
