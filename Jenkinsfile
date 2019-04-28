@@ -18,28 +18,6 @@ node {
                    
                }
         
-        
-        stage('Testing Stage') {
-           
-                 def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
-               
-                    sh "${mvnHome}/bin/mvn test"                   
-
-                }
- 
-               
-        
-        
-        stage('Deploy Stage') {
-           
-                def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
-               
-                    sh "${mvnHome}/bin/mvn deploy"                  
-
-                }
- 
-               
-        
         }
         
        
