@@ -58,3 +58,69 @@
 2019-04-28 22:35:09,035 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
 2019-04-28 22:35:09,035 INFO  [Log] X 
 2019-04-28 22:35:09,035 INFO  [Log] X 
+2019-04-28 22:40:54,925 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-04-28 22:40:54,925 INFO  [Log] X 
+2019-04-28 22:40:54,926 INFO  [Log] X 
+2019-04-28 22:40:56,101 INFO  [Log] **************************************************************************************** 
+2019-04-28 22:40:56,101 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-04-28 22:40:56,101 INFO  [Log] **************************************************************************************** 
+2019-04-28 22:45:59,083 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-04-28 22:45:59,083 INFO  [Log] X 
+2019-04-28 22:45:59,083 INFO  [Log] X 
+2019-04-28 22:45:59,961 INFO  [Log] **************************************************************************************** 
+2019-04-28 22:45:59,961 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-04-28 22:45:59,961 INFO  [Log] **************************************************************************************** 
+2019-04-28 22:48:05,436 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:48:05,545 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-04-28 22:48:06,183 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:48:06,248 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-04-28 22:48:06,856 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:48:06,962 INFO  [Log] Signup_button is found 
+2019-04-28 22:48:07,020 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:49:16,437 INFO  [Log] Signup button is found 
+2019-04-28 22:49:16,531 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:49:16,730 INFO  [Log] FirstName text box is found on Registration page 
+2019-04-28 22:49:16,731 INFO  [Log] khaja is entered as First Name on the Registration page 
+2019-04-28 22:49:16,839 INFO  [Log] Last Name text box is found on Registration page 
+2019-04-28 22:49:16,839 INFO  [Log] hussain is entered as Last Name on the Registration page 
+2019-04-28 22:49:16,978 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-04-28 22:49:16,978 INFO  [Log] 7358681940 is entered as Email on the Registration page 
+2019-04-28 22:49:17,145 INFO  [Log] Password text box is found on the Registratio page 
+2019-04-28 22:49:17,146 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-04-28 22:49:17,271 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-04-28 22:49:17,271 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-04-28 22:49:17,444 INFO  [Log] Day drop down is selected on Registration page 
+2019-04-28 22:49:17,444 INFO  [Log] 4 is selected as day on the Registration page 
+2019-04-28 22:49:19,694 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-04-28 22:49:19,694 INFO  [Log] X 
+2019-04-28 22:49:19,694 INFO  [Log] X 
+2019-04-28 22:52:29,529 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-04-28 22:52:29,529 INFO  [Log] X 
+2019-04-28 22:52:29,529 INFO  [Log] X 
+2019-04-28 22:52:30,265 INFO  [Log] **************************************************************************************** 
+2019-04-28 22:52:30,266 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-04-28 22:52:30,266 INFO  [Log] **************************************************************************************** 
+2019-04-28 22:53:16,398 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:53:16,461 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-04-28 22:53:17,043 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:53:17,089 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-04-28 22:53:17,736 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:53:17,844 INFO  [Log] Signup_button is found 
+2019-04-28 22:53:17,911 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:54:11,819 INFO  [Log] Signup button is found 
+2019-04-28 22:54:11,950 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-04-28 22:54:12,134 INFO  [Log] FirstName text box is found on Registration page 
+2019-04-28 22:54:12,134 INFO  [Log] khaja is entered as First Name on the Registration page 
+2019-04-28 22:54:12,318 INFO  [Log] Last Name text box is found on Registration page 
+2019-04-28 22:54:12,318 INFO  [Log] hussain is entered as Last Name on the Registration page 
+2019-04-28 22:54:12,528 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-04-28 22:54:12,528 INFO  [Log] 7358681940 is entered as Email on the Registration page 
+2019-04-28 22:54:12,704 INFO  [Log] Password text box is found on the Registratio page 
+2019-04-28 22:54:12,705 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-04-28 22:54:12,864 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-04-28 22:54:12,864 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-04-28 22:54:13,069 INFO  [Log] Day drop down is selected on Registration page 
+2019-04-28 22:54:13,069 INFO  [Log] 4 is selected as day on the Registration page 
+2019-04-28 22:54:23,852 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-04-28 22:54:23,852 INFO  [Log] X 
+2019-04-28 22:54:23,852 INFO  [Log] X 

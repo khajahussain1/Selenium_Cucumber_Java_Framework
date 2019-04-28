@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Spicejet" duration-ms="180344" started-at="2019-04-28T17:21:23Z" finished-at="2019-04-28T17:24:24Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicket@7c0e2abd]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@396a51ab]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="BookTick" duration-ms="66461" started-at="2019-04-28T17:21:23Z" finished-at="2019-04-28T17:22:30Z">
+      <class name="com.cucumber.TestRunner.BookTicket">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.BookTicket@7c0e2abd]" name="setUpClass" is-config="true" duration-ms="575" started-at="2019-04-28T22:51:23Z" finished-at="2019-04-28T22:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.BookTicket@7c0e2abd]" name="beforeclass" is-config="true" duration-ms="33" started-at="2019-04-28T22:51:24Z" finished-at="2019-04-28T22:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicket@7c0e2abd]" name="feature" duration-ms="65131" started-at="2019-04-28T22:51:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-04-28T22:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book your ticket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicket@7c0e2abd]" name="tearDownClass" is-config="true" duration-ms="614" started-at="2019-04-28T22:52:29Z" finished-at="2019-04-28T22:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicket@7c0e2abd]" name="testDownClass" is-config="true" duration-ms="0" started-at="2019-04-28T22:52:29Z" finished-at="2019-04-28T22:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- com.cucumber.TestRunner.BookTicket -->
+    </test> <!-- BookTick -->
+    <test name="Registration" duration-ms="113812" started-at="2019-04-28T17:22:30Z" finished-at="2019-04-28T17:24:24Z">
+      <class name="com.cucumber.TestRunner.RegistrationRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@396a51ab]" name="setUpClass" is-config="true" duration-ms="50" started-at="2019-04-28T22:52:30Z" finished-at="2019-04-28T22:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@396a51ab]" name="beforeclass" is-config="true" duration-ms="1" started-at="2019-04-28T22:52:30Z" finished-at="2019-04-28T22:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@396a51ab]" name="feature" duration-ms="113563" started-at="2019-04-28T22:52:30Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-04-28T22:54:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spicejet registration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@396a51ab]" name="tearDownClass" is-config="true" duration-ms="175" started-at="2019-04-28T22:54:23Z" finished-at="2019-04-28T22:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@396a51ab]" name="testDownClass" is-config="true" duration-ms="0" started-at="2019-04-28T22:54:23Z" finished-at="2019-04-28T22:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- com.cucumber.TestRunner.RegistrationRunner -->
+    </test> <!-- Registration -->
+  </suite> <!-- Spicejet -->
+</testng-results>
