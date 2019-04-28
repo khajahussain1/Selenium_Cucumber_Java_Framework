@@ -1,35 +1,46 @@
 pipeline {
     agent any 
     stages {
-        stage('Compile Stage') {
+    
+        stage('SCM Checkout stage') {
             steps {
-                withMaven(maven : 'maven-3.3.3'){
-                    sh 'mvn clean compile'                   
+                git 'https://github.com/khajahussain1/Selenium_Cucumber_Framework'                   
 
                 }
  
+               }
+        
+        stage('Compile Stage') {
+            steps {
+                    def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
+               
+                    sh "${mvnHome}/bin/mvn install"
+                 
+                   
                }
         }
         
         stage('Testing Stage') {
             steps {
-                withMaven(maven : 'maven-3.3.3'){
-                    sh 'mvn test'                   
+                 def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
+               
+                    sh "${mvnHome}/bin/mvn test"                   
 
                 }
  
                }
-        }
+        
         
         stage('Deploy Stage') {
             steps {
-                withMaven(maven : 'maven-3.3.3'){
-                    sh 'mvn deploy'                   
+                def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
+               
+                    sh "${mvnHome}/bin/mvn deploy"                  
 
                 }
  
                }
         }
+        }
        
-    }
-}
+    
