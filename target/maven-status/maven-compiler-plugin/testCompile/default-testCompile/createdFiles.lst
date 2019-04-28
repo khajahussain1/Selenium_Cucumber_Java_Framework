@@ -1,6 +1,0 @@
-com\cucumber\stepdefination\BookTicketSteps.class
-com\cucumber\stepdefination\Hooks.class
-com\cucumber\TestRunner\BookTicket.class
-com\cucumber\stepdefination\HomepageSteps.class
-com\cucumber\stepdefination\RegistrationSteps.class
-com\cucumber\TestRunner\RegistrationRunner.class

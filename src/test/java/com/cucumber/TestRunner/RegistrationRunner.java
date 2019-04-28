@@ -1,20 +1,18 @@
 package com.cucumber.TestRunner;
 
-import java.io.File;
 import java.io.IOException;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import com.cucumber.listener.Reporter;
-import com.cucumber.managers.FileReaderManager;
 import com.cucumber.utility.Log;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = "src/test/resources/features/Registration.feature", glue = {
-		"com/cucumber/stepdefination" }, plugin = {"pretty", "json:target/cucumber.json", "html:target/site/cucumber-pretty",
+		"com/cucumber/stepdefination" }, plugin = {"json:target/cucumber.json", "html:target/site/cucumber-pretty", "pretty", 
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html", }, 
 				monochrome = true, dryRun = false, strict = true)
 
