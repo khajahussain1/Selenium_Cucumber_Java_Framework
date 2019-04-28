@@ -1,5 +1,5 @@
 node {
-    stages {
+    
     
         stage('SCM Checkout stage') {
            
@@ -31,16 +31,16 @@ node {
         
         
         stage('Deploy Stage') {
-            steps {
+           
                 def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
                
                     sh "${mvnHome}/bin/mvn deploy"                  
 
                 }
  
-               }
+               
         
         }
-        }
+        
        
     
