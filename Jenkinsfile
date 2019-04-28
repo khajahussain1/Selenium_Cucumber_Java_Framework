@@ -22,7 +22,7 @@ node('master') {
             
                    bat label: '', script: 'mvn test'
                    
-                   cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+                  
                  
                    
                }
@@ -30,6 +30,13 @@ node('master') {
                stage('Deployment Stage') {
             
                    bat label: '', script: 'mvn deploy'
+                 
+                   
+               }
+               
+                stage('Reports Stage') {
+            
+                    cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
                  
                    
                }
