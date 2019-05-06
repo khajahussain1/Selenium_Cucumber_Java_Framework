@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Spicejet]">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Spicejet]" parallel="tests">
+  <listeners>
+    <listener class-name="com.cucumber.utility.Listener"/>
+  </listeners>
   <test name="BookTick">
     <classes>
-      <class name="com.cucumber.TestRunner.BookTicket"/>
+      <class name="com.cucumber.TestRunner.BookTicketRunner"/>
     </classes>
   </test> <!-- BookTick -->
   <test name="Registration">
@@ -11,4 +14,9 @@
       <class name="com.cucumber.TestRunner.RegistrationRunner"/>
     </classes>
   </test> <!-- Registration -->
+  <test name="LoginRunner">
+    <classes>
+      <class name="com.cucumber.TestRunner.LoginRunner"/>
+    </classes>
+  </test> <!-- LoginRunner -->
 </suite> <!-- Failed suite [Spicejet] -->

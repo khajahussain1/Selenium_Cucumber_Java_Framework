@@ -1,6 +1,6 @@
 package com.cucumber.stepdefination;
 
-import com.cucumber.PageObjects.Homepage;
+import com.cucumber.PageObjects.HomepagePageObjects;
 import com.cucumber.utility.TestContext;
 
 import cucumber.api.java.en.Given;
@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 public class HomepageSteps {
 
 	TestContext testContext;
-	Homepage homepage;
+	HomepagePageObjects homepage;
 
 	public HomepageSteps(TestContext context) {
 		

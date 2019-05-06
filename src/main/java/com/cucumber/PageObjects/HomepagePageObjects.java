@@ -9,13 +9,13 @@ import org.openqa.selenium.support.PageFactory;
 import com.cucumber.TestBase.TestBase;
 import com.cucumber.utility.Log;
 
-public class Homepage {
+public class HomepagePageObjects {
 	WebDriver driver;
 	Actions act;
 
 	TestBase testBase;
 
-	public Homepage(WebDriver driver) {
+	public HomepagePageObjects(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		testBase = new TestBase(driver);

@@ -1,6 +1,6 @@
 package com.cucumber.stepdefination;
 
-import com.cucumber.PageObjects.BookTicket;
+import com.cucumber.PageObjects.BookTicketPageObjects;
 import com.cucumber.utility.TestContext;
 
 import cucumber.api.java.en.Then;
@@ -8,7 +8,7 @@ import cucumber.api.java.en.Then;
 public class BookTicketSteps {
 
 	TestContext testContext;
-	BookTicket bookTicket;
+	BookTicketPageObjects bookTicket;
 
 	public BookTicketSteps(TestContext context) {
 		

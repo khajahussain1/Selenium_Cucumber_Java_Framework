@@ -1,5 +1,6 @@
 package com.cucumber.PageObjects;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,12 +10,12 @@ import org.openqa.selenium.support.ui.Select;
 import com.cucumber.TestBase.TestBase;
 import com.cucumber.utility.Log;
 
-public class Registration {
+public class RegistrationPageObjects {
 	WebDriver driver;
 	Select se;
 	TestBase testBase;
 
-	public Registration(WebDriver driver) {
+	public RegistrationPageObjects(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		testBase = new TestBase(driver);
@@ -35,8 +36,20 @@ public class Registration {
 
 	@FindBy(xpath = "//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']")
 	WebElement confirm_password_txtbox;
+	
+	@FindBy(xpath="//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB']")
+	WebElement dob_txtbox;
+	
+	@FindBy(xpath="//span[text()='1994']")
+	WebElement year_button;
+	
+	@FindBy(xpath="//span[text()='Jun']")
+	WebElement month_button;
+	
+	@FindBy(xpath="//span[text()='17']")
+	WebElement day_button;
 
-	@FindBy(xpath = "//select[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_DropDownListDOBDay']")
+	/*@FindBy(xpath = "//select[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_DropDownListDOBDay']")
 	WebElement day_dropdown;
 
 	@FindBy(xpath = "//select[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_DropDownListDOBMonth']")
@@ -44,7 +57,7 @@ public class Registration {
 
 	@FindBy(xpath = "//select[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_DropDownListDOBYear']")
 	WebElement year_dropdown;
-
+*/
 	@FindBy(xpath = "//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxEmail']")
 	WebElement email_address_txtbox;
 
@@ -131,12 +144,14 @@ public class Registration {
 		}
 	}
 
-	public void selectday(String day) {
+	public void click_on_dob_txtbox() {
 		try {
-		se = new Select(day_dropdown);
-		se.selectByVisibleText(day);
-		Log.info("Day drop down is selected on Registration page");
-		Log.info(day+" is selected as day on the Registration page");
+			Log.info("Day drop down is found on Registration page");
+		//se = new Select(day_dropdown);
+		//se.selectByVisibleText(day);
+			dob_txtbox.click();
+		
+		Log.info("dob_txtbox is clicked on the Registration page");
 		
 		}catch(Exception e)
 		{
@@ -147,14 +162,22 @@ public class Registration {
 
 	}
 
-	public void selectmonth(String month) {
-		se = new Select(month_dropdown);
-		se.selectByValue(month);
+	public void click_on_year_button() {
+		//se = new Select(month_dropdown);
+		//se.selectByValue(month);
+		year_button.click();
+		
 	}
 
-	public void selectyear(String year) {
-		se = new Select(year_dropdown);
-		se.selectByVisibleText(year);
+	public void click_on_month_button() {
+		//se = new Select(year_dropdown);
+		//se.selectByVisibleText(year);
+		month_button.click();
+	}
+	
+	public void click_on_day_button() {
+		day_button.click();
+		
 	}
 
 	public void setemailaddress(String emailaddress) {
@@ -167,6 +190,15 @@ public class Registration {
 
 	public void clickonsubmitbutton() {
 		submit_button.click();
+		driver.close();
+		try {
+			Alert alt = driver.switchTo().alert();
+			alt.accept();
+			
+		}catch(Exception e)
+		{
+			
+		}
 	}
 
 }

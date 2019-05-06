@@ -12,14 +12,12 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = "src/test/resources/features/BookTicket.feature", glue = {
-		"com/cucumber/stepdefination" }, plugin = {"json:target/cucumber.json",
-				"html:target/site/cucumber-pretty", "pretty", 
+		"com/cucumber/stepdefination" }, plugin = { "json:target/cucumber.json", "html:target/cucumber-pretty",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html",
-				 }, monochrome = true, dryRun = false, strict = true)
+				"pretty" }, monochrome = true, dryRun = false, strict = true)
 
-public class BookTicket extends AbstractTestNGCucumberTests {
+public class BookTicketRunner extends AbstractTestNGCucumberTests {
 
-	
 	String testcasename;
 
 	@BeforeClass
@@ -31,7 +29,7 @@ public class BookTicket extends AbstractTestNGCucumberTests {
 
 		// DOMConfigurator.configure("log4j.xml");
 		// "html:target/cucumber-reports/cucumber-pretty",
-		//"rerun:target/cucumber-reports/rerun.txt"
+		// "rerun:target/cucumber-reports/rerun.txt"
 
 		Log.startTestCase(testcasename);
 	}

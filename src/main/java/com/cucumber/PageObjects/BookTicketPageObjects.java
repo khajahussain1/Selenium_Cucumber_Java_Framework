@@ -7,13 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.cucumber.TestBase.TestBase;
 
-public class BookTicket {
+public class BookTicketPageObjects {
 
 	
 	WebDriver driver;
 	TestBase testBase;
 	
-	public BookTicket(WebDriver driver)
+	public BookTicketPageObjects(WebDriver driver)
 	{
 		this.driver = driver;
 		PageFactory.initElements(driver, this);

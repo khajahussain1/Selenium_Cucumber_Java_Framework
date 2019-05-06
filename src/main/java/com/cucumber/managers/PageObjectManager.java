@@ -2,26 +2,38 @@ package com.cucumber.managers;
 
 import org.openqa.selenium.WebDriver;
 
-import com.cucumber.PageObjects.BookTicket;
-import com.cucumber.PageObjects.Homepage;
-import com.cucumber.PageObjects.Registration;
+import com.cucumber.PageObjects.BookTicketPageObjects;
+import com.cucumber.PageObjects.HomepagePageObjects;
+import com.cucumber.PageObjects.LoginPageObjects;
+import com.cucumber.PageObjects.RegistrationPageObjects;
 import com.cucumber.utility.Log;
 
 public class PageObjectManager {
 
 	private WebDriver driver;
 
-	private Registration registration;
+	private RegistrationPageObjects registration;
 
-	private Homepage homepage;
+	private HomepagePageObjects homepage;
 	
-	private BookTicket bookTicket;
+	private BookTicketPageObjects bookTicket;
+	
+	private LoginPageObjects login;
 	
 	private Log log;
 
 	public PageObjectManager(WebDriver driver) {
 		
 		this.driver = driver; 
+	}
+	
+	public LoginPageObjects getlogin()
+	{
+		if(login == null)
+		{
+			login = new LoginPageObjects(driver);
+		}
+		return login;
 	}
 	
 	
@@ -38,11 +50,11 @@ public class PageObjectManager {
 
 	}
 
-	public Homepage getHomepage() {
+	public HomepagePageObjects getHomepage() {
 
 		if (homepage == null) 
 		{
-			homepage = new Homepage(driver);
+			homepage = new HomepagePageObjects(driver);
 		}
 
 		return homepage;
@@ -51,21 +63,21 @@ public class PageObjectManager {
 
 	}
 
-	public Registration getRegistration() {
+	public RegistrationPageObjects getRegistration() {
 
 		if (registration == null) 
 		{
-			registration = new Registration(driver);
+			registration = new RegistrationPageObjects(driver);
 		}
 
 		return registration;		
 	}
 	
-	public BookTicket getbookTicket()
+	public BookTicketPageObjects getbookTicket()
 	{
 		if(bookTicket == null)
 		{
-			bookTicket = new BookTicket(driver);
+			bookTicket = new BookTicketPageObjects(driver);
 		}
 		
 		return bookTicket;

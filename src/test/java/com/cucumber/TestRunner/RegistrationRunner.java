@@ -12,13 +12,12 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = "src/test/resources/features/Registration.feature", glue = {
-		"com/cucumber/stepdefination" }, plugin = {"json:target/cucumber.json", "html:target/site/cucumber-pretty", "pretty", 
-				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html", }, 
-				monochrome = true, dryRun = false, strict = true)
+		"com/cucumber/stepdefination" }, plugin = { "json:target/cucumber.json", "html:target/cucumber-pretty",
+				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html",
+				"pretty" }, monochrome = true, dryRun = false, strict = true)
 
 public class RegistrationRunner extends AbstractTestNGCucumberTests {
 
-	
 	String testcasename;
 
 	@BeforeClass
@@ -28,7 +27,7 @@ public class RegistrationRunner extends AbstractTestNGCucumberTests {
 
 		System.out.println("***************** " + testcasename + " Test satrting *****************");
 
-		//DOMConfigurator.configure("log4j.xml");
+		// DOMConfigurator.configure("log4j.xml");
 
 		Log.startTestCase(testcasename);
 	}
@@ -36,7 +35,8 @@ public class RegistrationRunner extends AbstractTestNGCucumberTests {
 	@AfterClass(alwaysRun = true)
 	public void testDownClass() throws IOException {
 
-		 //Reporter.loadXMLConfig(new File(FileReaderManager.getInstance().getConfigReader().getReportConfigPath()));
+		// Reporter.loadXMLConfig(new
+		// File(FileReaderManager.getInstance().getConfigReader().getReportConfigPath()));
 
 		// Reporter.loadXMLConfig(new File(ConfigFileReader.getReportConfigPath()));
 

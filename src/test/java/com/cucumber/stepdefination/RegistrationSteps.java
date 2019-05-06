@@ -1,6 +1,6 @@
 package com.cucumber.stepdefination;
 
-import com.cucumber.PageObjects.Registration;
+import com.cucumber.PageObjects.RegistrationPageObjects;
 import com.cucumber.utility.TestContext;
 
 import cucumber.api.java.en.Then;
@@ -8,7 +8,7 @@ import cucumber.api.java.en.Then;
 public class RegistrationSteps {
 
 	TestContext managerReder;
-	Registration registration;
+	RegistrationPageObjects registration;
 
 	public RegistrationSteps(TestContext reader) {
 		managerReder = reader;
@@ -42,21 +42,35 @@ public class RegistrationSteps {
 	public void enter_confirm_password_as(String confirmpassword) throws Throwable {
 		registration.setconfirmpassword(confirmpassword);
 	}
+	
+	@Then("^select date of birth$")
+	public void select_date_of_birth() throws Throwable {
+		registration.click_on_dob_txtbox();
+		registration.click_on_year_button();
+		registration.click_on_month_button();
+		registration.click_on_day_button();
+		
+	}
 
-	@Then("^select day as \"([^\"]*)\"$")
-	public void select_day_as(String day) throws Throwable {
-		registration.selectday(day);
+	/*@Then("^select day as \"([^\"]*)\"$")
+	public void select_day_as() throws Throwable {
+		//registration.selectday(day);
+		registration.click_on_dob_txtbox();
 	}
 
 	@Then("^select month as \"([^\"]*)\"$")
-	public void select_month_as(String month) throws Throwable {
-		registration.selectmonth(month);
+	public void select_month_as() throws Throwable {
+		//registration.selectmonth(month);
+		registration.click_on_year_button();
 	}
 
 	@Then("^select year as \"([^\"]*)\"$")
-	public void select_year_as(String year) throws Throwable {
-		registration.selectyear(year);
-	}
+	public void select_year_as() throws Throwable {
+		//registration.selectyear(year);
+		registration.click_on_month_button();
+	}*/
+	
+	
 
 	@Then("^email address as \"([^\"]*)\"$")
 	public void email_address_as(String emailaddress) throws Throwable {
@@ -71,6 +85,7 @@ public class RegistrationSteps {
 	@Then("^click on submit button$")
 	public void click_on_submit_button() throws Throwable {
 		registration.clickonsubmitbutton();
+		
 	}
 
 }
