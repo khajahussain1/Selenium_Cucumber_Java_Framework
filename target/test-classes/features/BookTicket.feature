@@ -1,3 +1,4 @@
+@tag
 Feature: Book your ticket
 
   Scenario: Book your ticket

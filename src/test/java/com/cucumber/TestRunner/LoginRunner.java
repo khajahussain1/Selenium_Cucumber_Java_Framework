@@ -1,11 +1,14 @@
 package com.cucumber.TestRunner;
 
+import java.io.File;
 import java.io.IOException;
 
+import org.apache.log4j.xml.DOMConfigurator;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import com.cucumber.listener.Reporter;
+import com.cucumber.managers.FileReaderManager;
 import com.cucumber.utility.Log;
 
 import cucumber.api.CucumberOptions;
@@ -19,6 +22,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 public class LoginRunner extends AbstractTestNGCucumberTests {
 
 	String testcasename;
+	
 
 	@BeforeClass
 	public void beforeclass() {
@@ -27,7 +31,7 @@ public class LoginRunner extends AbstractTestNGCucumberTests {
 
 		System.out.println("***************** " + testcasename + " Test satrting *****************");
 
-		// DOMConfigurator.configure("log4j.xml");
+		 DOMConfigurator.configure("log4j.xml");
 		// "html:target/cucumber-reports/cucumber-pretty",
 		// "rerun:target/cucumber-reports/rerun.txt"
 
@@ -37,8 +41,7 @@ public class LoginRunner extends AbstractTestNGCucumberTests {
 	@AfterClass(alwaysRun = true)
 	public void testDownClass() throws IOException {
 
-		// Reporter.loadXMLConfig(new
-		// File(FileReaderManager.getInstance().getConfigReader().getReportConfigPath()));
+		//Reporter.loadXMLConfig(new File(FileReaderManager.getInstance().getConfigReader().getReportConfigPath()));
 
 		// Reporter.loadXMLConfig(new File(ConfigFileReader.getReportConfigPath()));
 

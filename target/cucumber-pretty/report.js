@@ -1,289 +1,125 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Registration.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Login.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Spicejet registration",
-  "description": "As an employee of the company\nI want to register to application with my credentails\nIn order to use the application features.",
-  "id": "spicejet-registration",
-  "keyword": "Feature"
-});
-formatter.before({
-  "duration": 17742841619,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 119316,
-  "status": "passed"
-});
-formatter.scenario({
-  "comments": [
-    {
-      "line": 6,
-      "value": "#Rule: There can be only One"
-    },
-    {
-      "line": 7,
-      "value": "#Background: User navigates to the browser"
-    },
-    {
-      "line": 8,
-      "value": "#Given Launch the spicejet application"
-    },
-    {
-      "line": 9,
-      "value": "#Then pass the URL to the browser \"https://www.spicejet.com/\""
-    },
-    {
-      "line": 10,
-      "value": "#Then I should see home page"
-    }
-  ],
-  "line": 12,
-  "name": "User land on Spicejet Homepage",
+  "line": 2,
+  "name": "Login with Valid Credentials",
   "description": "",
-  "id": "spicejet-registration;user-land-on-spicejet-homepage",
-  "type": "scenario",
-  "keyword": "Scenario",
+  "id": "login-with-valid-credentials",
+  "keyword": "Feature",
   "tags": [
     {
-      "line": 11,
-      "name": "@sanity,"
-    },
-    {
-      "line": 11,
-      "name": "@Registration"
+      "line": 1,
+      "name": "@tag"
     }
   ]
 });
+formatter.before({
+  "duration": 59124851516,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 84200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "Successful Login with Valid Credentials",
+  "description": "",
+  "id": "login-with-valid-credentials;successful-login-with-valid-credentials",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
 formatter.step({
-  "line": 13,
-  "name": "User is on home page",
+  "line": 5,
+  "name": "User is on Home Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 14,
-  "name": "move to mouse on Login/SignUp button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "move to the mouse SpiceCash/SpiceClub Member button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 16,
-  "name": "move to the mouse Signup button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 17,
-  "name": "click on Signup button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 18,
-  "name": "user land on registration page",
+  "line": 6,
+  "name": "User Navigate to LogIn Page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
-  "name": "enter firstname as \"khaja\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 20,
-  "name": "enter lastname as \"hussain\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 21,
-  "name": "enter mobile number as \"9290543618\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 22,
-  "name": "enter password as \"Welcome@123\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 23,
-  "name": "enter confirm password as \"Welcome@123\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 24,
-  "name": "select date of birth",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 25,
-  "name": "email address as \"test@gmail.com\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 26,
-  "name": "check on checkbox",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 27,
-  "name": "click on submit button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "HomepageSteps.launch_the_spicejet_application()"
-});
-formatter.result({
-  "duration": 417854475,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomepageSteps.move_to_mouse_on_Login_SignUp_button()"
-});
-formatter.result({
-  "duration": 273537872,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomepageSteps.move_to_the_mouse_SpiceCash_SpiceClub_Member_button()"
-});
-formatter.result({
-  "duration": 744595863,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomepageSteps.move_to_the_mouse_Signup_button()"
-});
-formatter.result({
-  "duration": 780388713,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomepageSteps.click_on_Signup_button()"
-});
-formatter.result({
-  "duration": 6849136509,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomepageSteps.user_land_on_registration_page()"
-});
-formatter.result({
-  "duration": 204272,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
+  "line": 7,
+  "name": "User enters Credentials to LogIn",
+  "rows": [
     {
-      "val": "khaja",
-      "offset": 20
+      "cells": [
+        "Username",
+        "Password"
+      ],
+      "line": 8
+    },
+    {
+      "cells": [
+        "9290543618",
+        "Test@153"
+      ],
+      "line": 9
+    },
+    {
+      "cells": [
+        "7358681940",
+        "khaja@123"
+      ],
+      "line": 10
+    },
+    {
+      "cells": [
+        "9034287569",
+        "hussain@1234"
+      ],
+      "line": 11
     }
   ],
-  "location": "RegistrationSteps.enter_firstname_as(String)"
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Message displayed Login Successfully",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 219007534,
+  "duration": 1236677599,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "hussain",
-      "offset": 19
-    }
-  ],
-  "location": "RegistrationSteps.enter_lastname_as(String)"
+  "location": "LoginSteps.user_Navigate_to_LogIn_Page()"
 });
 formatter.result({
-  "duration": 178201533,
+  "duration": 15661540367,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "9290543618",
-      "offset": 24
-    }
-  ],
-  "location": "RegistrationSteps.enter_mobile_number_as(String)"
+  "location": "LoginSteps.user_enters_Credentials_to_LogIn(DataTable)"
 });
 formatter.result({
-  "duration": 223674065,
+  "duration": 36748677520,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Welcome@123",
-      "offset": 19
-    }
-  ],
-  "location": "RegistrationSteps.enter_password_as(String)"
+  "location": "LoginSteps.message_displayed_Login_Successfully()"
 });
 formatter.result({
-  "duration": 189945077,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Welcome@123",
-      "offset": 27
-    }
-  ],
-  "location": "RegistrationSteps.enter_confirm_password_as(String)"
-});
-formatter.result({
-  "duration": 122224680,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.select_date_of_birth()"
-});
-formatter.result({
-  "duration": 705199752,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "test@gmail.com",
-      "offset": 18
-    }
-  ],
-  "location": "RegistrationSteps.email_address_as(String)"
-});
-formatter.result({
-  "duration": 198857514,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.check_on_checkbox()"
-});
-formatter.result({
-  "duration": 78009873,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationSteps.click_on_submit_button()"
-});
-formatter.result({
-  "duration": 1046411578,
+  "duration": 123847,
   "status": "passed"
 });
 formatter.after({
-  "duration": 115918,
+  "duration": 121959,
   "status": "passed"
 });
 formatter.after({
-  "duration": 182749,
+  "duration": 132154,
   "status": "passed"
 });
 formatter.after({
-  "duration": 61546,
+  "duration": 67964,
   "status": "passed"
 });
 formatter.after({
-  "duration": 106100,
+  "duration": 129888,
   "status": "passed"
 });
 });

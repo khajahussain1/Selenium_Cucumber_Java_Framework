@@ -1,5 +1,6 @@
 package com.cucumber.managers;
 
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 
 import com.cucumber.PageObjects.BookTicketPageObjects;
@@ -25,6 +26,7 @@ public class PageObjectManager {
 	public PageObjectManager(WebDriver driver) {
 		
 		this.driver = driver; 
+		DOMConfigurator.configure("log4j.xml");
 	}
 	
 	public LoginPageObjects getlogin()

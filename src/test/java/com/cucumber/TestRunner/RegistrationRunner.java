@@ -2,9 +2,12 @@ package com.cucumber.TestRunner;
 
 import java.io.IOException;
 
+import org.apache.log4j.xml.DOMConfigurator;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.cucumber.TestBase.TestBase;
 import com.cucumber.listener.Reporter;
 import com.cucumber.utility.Log;
 
@@ -19,7 +22,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 public class RegistrationRunner extends AbstractTestNGCucumberTests {
 
 	String testcasename;
-
+	
 	@BeforeClass
 	public void beforeclass() {
 
@@ -27,7 +30,7 @@ public class RegistrationRunner extends AbstractTestNGCucumberTests {
 
 		System.out.println("***************** " + testcasename + " Test satrting *****************");
 
-		// DOMConfigurator.configure("log4j.xml");
+		DOMConfigurator.configure("log4j.xml");
 
 		Log.startTestCase(testcasename);
 	}

@@ -1,8 +1,6 @@
 package com.cucumber.TestBase;
 
-import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +16,7 @@ public class TestBase {
 
 	public TestBase(WebDriver driver) {
 		this.driver = driver;
-		DOMConfigurator.configure("log4j.xml");
+		//DOMConfigurator.configure("log4j.xml");
 	}
 
 	public void WaiteForElement(WebElement element) {

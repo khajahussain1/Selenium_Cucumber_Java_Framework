@@ -19,6 +19,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 public class BookTicketRunner extends AbstractTestNGCucumberTests {
 
 	String testcasename;
+	
 
 	@BeforeClass
 	public void beforeclass() {
@@ -37,8 +38,7 @@ public class BookTicketRunner extends AbstractTestNGCucumberTests {
 	@AfterClass(alwaysRun = true)
 	public void testDownClass() throws IOException {
 
-		// Reporter.loadXMLConfig(new
-		// File(FileReaderManager.getInstance().getConfigReader().getReportConfigPath()));
+		//Reporter.loadXMLConfig(new File(FileReaderManager.getInstance().getConfigReader().getReportConfigPath()));
 
 		// Reporter.loadXMLConfig(new File(ConfigFileReader.getReportConfigPath()));
 
