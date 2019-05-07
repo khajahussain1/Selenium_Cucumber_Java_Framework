@@ -7,7 +7,7 @@ node('master') {
                }
         
         
-        stage('Compile Stage') {
+        stage('Clean & Compile Stage') {
             
                     bat label: '', script: 'mvn clean compile'                
                    
