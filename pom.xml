@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>CucumberToolsqas</groupId>
-	<artifactId>Selenium_Cucumber_Framework</artifactId>
+	<artifactId>Selenium_Cucumber_Java_Framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Selenium_Cucumber_Framework</name>
+	<name>Selenium_Cucumber_Java_Framework</name>
 	<url>http://maven.apache.org</url>
 
 	<!-- <properties> <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
@@ -18,7 +18,7 @@
 		<repository>
 			<id>maven2-repository.java.net</id>
 			<name>Java.net Repository for Maven</name>
-			<url>C:\Users\khaja.h\Desktop\BNSF_Training\Selenium_Cucumber_Framework\screenshots\</url>
+			<url>C:\Users\khaja.h\Desktop\BNSF_Training\Selenium_Cucumber_Java_Framework\screenshots\</url>
 			<layout>default</layout>
 		</repository>
 	</repositories>
@@ -61,7 +61,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>Selenium_Cucumber_Framework</projectName>
+							<projectName>Selenium_Cucumber_Java_Framework</projectName>
 							<!-- optional, per documentation set this to "true" to bypass generation of Cucumber Reports entirely, defaults to false if not specified -->
                             <skip>false</skip>
 							
