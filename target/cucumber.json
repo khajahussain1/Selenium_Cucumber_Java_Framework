@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 59124851516,
+              "duration": 48659800101,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 84200,
+              "duration": 81180,
               "status": "passed"
             },
             "match": {
@@ -23,23 +23,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Successful Login with Valid Credentials",
+        "line": 50,
+        "name": "User land on Spicejet Homepage",
         "description": "",
-        "id": "login-with-valid-credentials;successful-login-with-valid-credentials",
+        "id": "spicejet-registration;user-land-on-spicejet-homepage;;2",
         "after": [
           {
             "result": {
-              "duration": 121959,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterScenario(Scenario)"
-            }
-          },
-          {
-            "result": {
-              "duration": 132154,
+              "duration": 75139,
               "status": "passed"
             },
             "match": {
@@ -48,112 +39,615 @@
           },
           {
             "result": {
-              "duration": 67964,
+              "duration": 49463,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.AfterSteps()"
+              "location": "Hooks.afterScenario(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 129888,
+              "duration": 69475,
               "status": "passed"
             },
             "match": {
               "location": "Hooks.afterScenarioFinish()"
             }
+          },
+          {
+            "result": {
+              "duration": 34360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1236677599,
+              "duration": 814696366,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User is on Home Page",
+            "line": 31,
+            "name": "User is on home page",
             "match": {
-              "location": "LoginSteps.user_is_on_Home_Page()"
+              "location": "HomepageSteps.launch_the_spicejet_application()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 15661540367,
+              "duration": 709775992,
               "status": "passed"
             },
-            "line": 6,
-            "name": "User Navigate to LogIn Page",
+            "line": 32,
+            "name": "move to mouse on Login/SignUp button",
             "match": {
-              "location": "LoginSteps.user_Navigate_to_LogIn_Page()"
+              "location": "HomepageSteps.move_to_mouse_on_Login_SignUp_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 746105344,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "move to the mouse SpiceCash/SpiceClub Member button",
+            "match": {
+              "location": "HomepageSteps.move_to_the_mouse_SpiceCash_SpiceClub_Member_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 981228928,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "move to the mouse Signup button",
+            "match": {
+              "location": "HomepageSteps.move_to_the_mouse_Signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25440716544,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "click on Signup button",
+            "match": {
+              "location": "HomepageSteps.click_on_Signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92885,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user land on registration page",
+            "match": {
+              "location": "HomepageSteps.user_land_on_registration_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 36748677520,
+              "duration": 3380442503,
               "status": "passed"
             },
-            "line": 7,
-            "name": "User enters Credentials to LogIn",
+            "line": 37,
+            "name": "select title",
             "match": {
-              "location": "LoginSteps.user_enters_Credentials_to_LogIn(DataTable)"
+              "location": "RegistrationSteps.select_title()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "Username",
-                  "Password"
-                ],
-                "line": 8
-              },
-              {
-                "cells": [
-                  "9290543618",
-                  "Test@153"
-                ],
-                "line": 9
-              },
-              {
-                "cells": [
-                  "7358681940",
-                  "khaja@123"
-                ],
-                "line": 10
-              },
-              {
-                "cells": [
-                  "9034287569",
-                  "hussain@1234"
-                ],
-                "line": 11
-              }
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 123847,
+              "duration": 1344285327,
               "status": "passed"
             },
-            "line": 12,
-            "name": "Message displayed Login Successfully",
+            "line": 38,
+            "name": "enter firstname as \"khaja\"",
             "match": {
-              "location": "LoginSteps.message_displayed_Login_Successfully()"
+              "arguments": [
+                {
+                  "val": "khaja",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationSteps.enter_firstname_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 581594730,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "enter lastname as \"hussain\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hussain",
+                  "offset": 19
+                }
+              ],
+              "location": "RegistrationSteps.enter_lastname_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 312021015,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "enter mobile number as \"9290543618\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9290543618",
+                  "offset": 24
+                }
+              ],
+              "location": "RegistrationSteps.enter_mobile_number_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 273477527,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "enter password as \"Welcome@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome@123",
+                  "offset": 19
+                }
+              ],
+              "location": "RegistrationSteps.enter_password_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 282124514,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "enter confirm password as \"Welcome@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome@123",
+                  "offset": 27
+                }
+              ],
+              "location": "RegistrationSteps.enter_confirm_password_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2487923255,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "select date of birth",
+            "match": {
+              "location": "RegistrationSteps.select_date_of_birth()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 338835698,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "email address as \"test@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "RegistrationSteps.email_address_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133073960,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "check on checkbox",
+            "match": {
+              "location": "RegistrationSteps.check_on_checkbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4162190379,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "click on submit button",
+            "match": {
+              "location": "RegistrationSteps.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23497372979,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenarioStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 105723,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "User land on Spicejet Homepage",
+        "description": "",
+        "id": "spicejet-registration;user-land-on-spicejet-homepage;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 81558,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46442,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 60413,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenarioFinish()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34737,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1299257,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is on home page",
+            "match": {
+              "location": "HomepageSteps.launch_the_spicejet_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164082060,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "move to mouse on Login/SignUp button",
+            "match": {
+              "location": "HomepageSteps.move_to_mouse_on_Login_SignUp_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 703292923,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "move to the mouse SpiceCash/SpiceClub Member button",
+            "match": {
+              "location": "HomepageSteps.move_to_the_mouse_SpiceCash_SpiceClub_Member_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 736790794,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "move to the mouse Signup button",
+            "match": {
+              "location": "HomepageSteps.move_to_the_mouse_Signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9629581523,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "click on Signup button",
+            "match": {
+              "location": "HomepageSteps.click_on_Signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103835,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user land on registration page",
+            "match": {
+              "location": "HomepageSteps.user_land_on_registration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228509494,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "select title",
+            "match": {
+              "location": "RegistrationSteps.select_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233098994,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "enter firstname as \"poola\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "poola",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationSteps.enter_firstname_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162586084,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "enter lastname as \"vali\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vali",
+                  "offset": 19
+                }
+              ],
+              "location": "RegistrationSteps.enter_lastname_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 322503801,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "enter mobile number as \"7358681940\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7358681940",
+                  "offset": 24
+                }
+              ],
+              "location": "RegistrationSteps.enter_mobile_number_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 214354353,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "enter password as \"Welcome@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome@123",
+                  "offset": 19
+                }
+              ],
+              "location": "RegistrationSteps.enter_password_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 190316024,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "enter confirm password as \"Welcome@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome@123",
+                  "offset": 27
+                }
+              ],
+              "location": "RegistrationSteps.enter_confirm_password_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1177624765,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "select date of birth",
+            "match": {
+              "location": "RegistrationSteps.select_date_of_birth()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 357457625,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "email address as \"test1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "RegistrationSteps.email_address_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168945307,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "check on checkbox",
+            "match": {
+              "location": "RegistrationSteps.check_on_checkbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4687664838,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "click on submit button",
+            "match": {
+              "location": "RegistrationSteps.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
           }
         ]
       }
     ],
-    "name": "Login with Valid Credentials",
-    "description": "",
-    "id": "login-with-valid-credentials",
+    "name": "Spicejet registration",
+    "description": "As an employee of the company\nI want to register to application with my credentails\nIn order to use the application features.",
+    "id": "spicejet-registration",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/Login.feature",
+    "uri": "src/test/resources/features/Registration.feature",
     "tags": [
       {
         "line": 1,
