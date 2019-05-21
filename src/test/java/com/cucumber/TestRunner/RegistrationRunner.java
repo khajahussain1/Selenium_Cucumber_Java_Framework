@@ -43,7 +43,7 @@ public class RegistrationRunner extends AbstractTestNGCucumberTests {
 
 		// Reporter.loadXMLConfig(new File(ConfigFileReader.getReportConfigPath()));
 
-		// Reporter.addScreenCaptureFromPath("screenshotPath");
+		Reporter.addScreenCaptureFromPath("screenshotPath");
 		Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
 		Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
 		Reporter.setSystemInfo("os", "Window");

@@ -2,6 +2,7 @@ package com.cucumber.TestRunner;
 
 import java.io.IOException;
 
+import org.apache.log4j.xml.DOMConfigurator;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -25,6 +26,7 @@ public class BookTicketRunner extends AbstractTestNGCucumberTests {
 	public void beforeclass() {
 
 		testcasename = this.getClass().getSimpleName();
+		DOMConfigurator.configure("log4j.xml");
 
 		System.out.println("***************** " + testcasename + " Test satrting *****************");
 
