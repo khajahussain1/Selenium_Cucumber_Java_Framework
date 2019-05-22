@@ -1,6 +1,5 @@
 package com.cucumber.TestRunner;
 
-import java.io.File;
 import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
@@ -8,7 +7,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import com.cucumber.listener.Reporter;
-import com.cucumber.managers.FileReaderManager;
 import com.cucumber.utility.Log;
 
 import cucumber.api.CucumberOptions;

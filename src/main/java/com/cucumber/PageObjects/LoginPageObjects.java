@@ -1,19 +1,13 @@
 package com.cucumber.PageObjects;
 
-import java.util.function.Function;
-
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.cucumber.TestBase.TestBase;
-import com.cucumber.managers.FileReaderManager;
 import com.cucumber.utility.Log;
 
 public class LoginPageObjects {
@@ -29,11 +23,11 @@ public class LoginPageObjects {
 
 	}
 
-	@FindBy(xpath = "//a[@id='ctl00_HyperLinkLogin']")
+	/*@FindBy(xpath = "//a[@id='ctl00_HyperLinkLogin']")
 	WebElement Login_Signup_button;
 
 	@FindBy(xpath = "//*[text()='SpiceClub Members']")
-	WebElement SpiceCash_SpiceClub_Member_button;
+	WebElement SpiceCash_SpiceClub_Member_button;*/
 
 	@FindBy(linkText = "Member Login")
 	WebElement Member_Login;
@@ -47,7 +41,7 @@ public class LoginPageObjects {
 	@FindBy(xpath = "//input[@id='ControlGroupLoginView_MemberLoginView2LoginView_ButtonLogIn']")
 	WebElement login_button;
 
-	public void mousemoveon_Login_Signup_button() {
+	/*public void mousemoveon_Login_Signup_button() {
 		act = new Actions(driver);
 
 		try {
@@ -84,7 +78,7 @@ public class LoginPageObjects {
 
 		}
 	}
-
+*/
 	public void Member_Login_button() {
 		act = new Actions(driver);
 

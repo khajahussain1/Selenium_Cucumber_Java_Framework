@@ -7,7 +7,6 @@ import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.utility.TestContext;
 
 import cucumber.api.DataTable;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
@@ -15,21 +14,15 @@ public class LoginSteps {
 
 	TestContext testContext;
 	LoginPageObjects login;
-
+	
 	public LoginSteps(TestContext context) {
 		this.testContext = context;
 		login = testContext.getPageObjectManager().getlogin();
-
+		
 	}
-
-	@Given("^User is on Home Page$")
-	public void user_is_on_Home_Page() throws Throwable {
-		login.mousemoveon_Login_Signup_button();
-	}
-
+	
 	@When("^User Navigate to LogIn Page$")
 	public void user_Navigate_to_LogIn_Page() throws Throwable {
-		login.mousemoveon_SpiceCash_SpiceClub_Member_button();
 		login.Member_Login_button();
 	}
 

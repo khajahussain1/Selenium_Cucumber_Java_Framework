@@ -2,7 +2,9 @@
 Feature: Login with Valid Credentials
 
   Scenario: Successful Login with Valid Credentials
-    Given User is on Home Page
+    Given User is on home page
+    Then move to mouse on Login/SignUp button
+    Then move to the mouse SpiceCash/SpiceClub Member button
     When User Navigate to LogIn Page
     And User enters Credentials to LogIn
       | Username   | Password     |
