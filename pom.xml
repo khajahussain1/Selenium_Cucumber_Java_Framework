@@ -31,8 +31,8 @@
 		<maven.compile.encoding>UTF-8</maven.compile.encoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<timestamp>${maven.build.timestamp}</timestamp>
-		<maven.build.timestamp.format>yyyy-MM-dd HH-mm-ss</maven.build.timestamp.format>
+		<!-- <timestamp>${maven.build.timestamp}</timestamp>
+		<maven.build.timestamp.format>yyyy-MM-dd HH-mm-ss</maven.build.timestamp.format> -->
 
 	</properties>
 
@@ -63,7 +63,7 @@
 						<configuration>
 							<projectName>Selenium_Cucumber_Java_Framework</projectName>
 							<!-- optional, per documentation set this to "true" to bypass generation of Cucumber Reports entirely, defaults to false if not specified -->
-                            <skip>false</skip>
+                            <skip>true</skip>
 							
 							<!-- <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory> -->
 							 <!-- output directory for the generated report -->							
@@ -73,12 +73,12 @@
                           <!--   <inputDirectory>${project.build.directory}/jsonReports</inputDirectory> -->
 							
 							<!-- <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput> -->
-							<skippedFails>true</skippedFails>
+							<skippedFails>false</skippedFails>
 							<enableFlashCharts>true</enableFlashCharts>
 							<buildNumber>12</buildNumber>
 							
 							<!-- optional, set true to fail build on test failures -->
-                            <checkBuildResult>false</checkBuildResult>
+                            <checkBuildResult>true</checkBuildResult>
 							
 						</configuration>
 					</execution>

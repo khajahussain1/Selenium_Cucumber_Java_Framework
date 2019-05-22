@@ -132,8 +132,8 @@ public class WebDriverManager {
 	}
 
 	public void quitDriver() {
-//		driver.close();
-//		driver.quit();
+		driver.close();
+		driver.quit();
 
 	}
 
