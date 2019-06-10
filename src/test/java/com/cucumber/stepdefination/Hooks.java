@@ -48,7 +48,7 @@ public class Hooks {
 	}
 
 	@After(order = 1)
-	public void afterScenario(Scenario scenario) {
+	public void afterScenario(Scenario scenario) throws InterruptedException {
 
 		if (scenario.isFailed()) {
 
@@ -69,6 +69,7 @@ public class Hooks {
 				Files.copy(sourcePath, destinationPath);
 
 				Reporter.addScreenCaptureFromPath(destinationPath.toString());
+				Thread.sleep(2000);
 
 				System.out.println("Log out the user and close the browser");
 

@@ -195,3 +195,517 @@ Session ID: ec0ebb41d3c5534b15ce523ecac5c3df
 2019-05-27 15:09:20,366 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
 2019-05-27 15:09:20,366 INFO  [Log] X 
 2019-05-27 15:09:20,366 INFO  [Log] X 
+2019-06-10 13:37:14,144 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:37:14,160 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 13:37:14,160 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:37:59,741 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 13:37:59,741 INFO  [Log] X 
+2019-06-10 13:37:59,741 INFO  [Log] X 
+2019-06-10 13:38:01,044 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:38:01,044 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 13:38:01,044 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:38:17,198 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:38:17,336 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 13:38:17,981 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:38:18,115 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 13:38:18,849 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:38:18,954 INFO  [Log] Signup_button is found 
+2019-06-10 13:38:19,078 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:38:25,942 INFO  [Log] Signup button is found 
+2019-06-10 13:38:26,436 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:38:26,692 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 13:38:26,692 INFO  [Log] khaja is entered as First Name on the Registration page 
+2019-06-10 13:38:26,962 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 13:38:26,962 INFO  [Log] hussain is entered as Last Name on the Registration page 
+2019-06-10 13:38:27,490 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 13:38:27,490 INFO  [Log] 9290543618 is entered as Email on the Registration page 
+2019-06-10 13:38:28,235 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 13:38:28,235 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 13:38:28,586 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-06-10 13:38:28,586 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-06-10 13:38:28,588 INFO  [Log] Day drop down is found on Registration page 
+2019-06-10 13:38:29,288 INFO  [Log] dob_txtbox is clicked on the Registration page 
+2019-06-10 13:39:00,668 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:00,753 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 13:39:01,432 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:01,509 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 13:39:02,203 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:02,361 INFO  [Log] Signup_button is found 
+2019-06-10 13:39:02,437 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:09,470 INFO  [Log] Signup button is found 
+2019-06-10 13:39:09,787 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:09,939 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 13:39:09,939 INFO  [Log] poola is entered as First Name on the Registration page 
+2019-06-10 13:39:10,053 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 13:39:10,053 INFO  [Log] vali is entered as Last Name on the Registration page 
+2019-06-10 13:39:10,254 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 13:39:10,254 INFO  [Log] 7358681940 is entered as Email on the Registration page 
+2019-06-10 13:39:10,374 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 13:39:10,374 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 13:39:10,390 ERROR [Log] Confirm password text box is not found on the Registration page org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Invalid Mobile number, Please provide a valid number.}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LP-5CD7465GP0', ip: '172.23.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\khaja.h\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: f6a6c44471e390779907800108c4e5e8
+*** Element info: {Using=xpath, value=//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']} 
+2019-06-10 13:39:11,792 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 13:39:11,792 INFO  [Log] X 
+2019-06-10 13:39:11,792 INFO  [Log] X 
+2019-06-10 13:39:12,223 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:39:12,224 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LoginRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 13:39:12,224 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:39:25,990 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:26,078 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 13:39:26,768 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:26,901 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 13:39:27,564 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:34,860 INFO  [Log] Member_Login is found on the Home page 
+2019-06-10 13:39:37,014 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:37,259 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 13:39:37,538 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:37,686 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:39:37,732 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:43,308 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:39:47,498 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:47,640 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 13:39:47,909 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:48,105 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:39:48,155 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:53,662 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:39:57,795 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:57,957 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 13:39:58,214 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:39:58,404 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:39:58,449 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:40:05,333 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:40:10,589 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 13:40:10,589 INFO  [Log] X 
+2019-06-10 13:40:10,589 INFO  [Log] X 
+2019-06-10 13:48:59,386 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:48:59,387 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 13:48:59,387 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:49:26,742 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 13:49:26,742 INFO  [Log] X 
+2019-06-10 13:49:26,742 INFO  [Log] X 
+2019-06-10 13:49:28,077 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:49:28,077 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 13:49:28,077 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:49:42,047 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:49:42,124 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 13:49:42,741 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:49:42,816 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 13:49:43,430 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:49:43,502 INFO  [Log] Signup_button is found 
+2019-06-10 13:49:43,550 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:49:55,276 INFO  [Log] Signup button is found 
+2019-06-10 13:49:55,568 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:49:55,733 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 13:49:55,733 INFO  [Log] khaja is entered as First Name on the Registration page 
+2019-06-10 13:49:55,903 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 13:49:55,903 INFO  [Log] hussain is entered as Last Name on the Registration page 
+2019-06-10 13:49:56,206 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 13:49:56,206 INFO  [Log] 9290543618 is entered as Email on the Registration page 
+2019-06-10 13:49:56,789 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 13:49:56,789 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 13:49:57,263 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-06-10 13:49:57,263 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-06-10 13:49:57,265 INFO  [Log] Day drop down is found on Registration page 
+2019-06-10 13:49:57,638 INFO  [Log] dob_txtbox is clicked on the Registration page 
+2019-06-10 13:50:20,809 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:50:20,878 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 13:50:21,508 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:50:21,562 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 13:50:22,180 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:50:22,243 INFO  [Log] Signup_button is found 
+2019-06-10 13:50:22,288 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:50:29,431 INFO  [Log] Signup button is found 
+2019-06-10 13:50:29,732 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:50:29,907 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 13:50:29,907 INFO  [Log] poola is entered as First Name on the Registration page 
+2019-06-10 13:50:30,044 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 13:50:30,045 INFO  [Log] vali is entered as Last Name on the Registration page 
+2019-06-10 13:50:30,295 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 13:50:30,295 INFO  [Log] 7358681940 is entered as Email on the Registration page 
+2019-06-10 13:50:30,421 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 13:50:30,421 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 13:50:30,443 ERROR [Log] Confirm password text box is not found on the Registration page org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Invalid Mobile number, Please provide a valid number.}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LP-5CD7465GP0', ip: '172.23.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\khaja.h\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 4b6cbdb778887f850420c10df47290c3
+*** Element info: {Using=xpath, value=//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']} 
+2019-06-10 13:50:33,821 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 13:50:33,821 INFO  [Log] X 
+2019-06-10 13:50:33,821 INFO  [Log] X 
+2019-06-10 13:50:34,229 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:50:34,229 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LoginRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 13:50:34,229 INFO  [Log] **************************************************************************************** 
+2019-06-10 13:50:55,536 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:50:55,599 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 13:50:56,217 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:50:56,285 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 13:50:56,716 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:02,167 INFO  [Log] Member_Login is found on the Home page 
+2019-06-10 13:51:04,258 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:04,456 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 13:51:04,702 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:04,874 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:51:04,922 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:19,053 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:51:23,119 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:23,258 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 13:51:23,499 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:23,608 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:51:23,644 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:29,005 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:51:33,082 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:33,217 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 13:51:33,454 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:33,650 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:51:33,700 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 13:51:37,839 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 13:51:43,696 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 13:51:43,697 INFO  [Log] X 
+2019-06-10 13:51:43,697 INFO  [Log] X 
+2019-06-10 14:00:19,031 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:00:19,032 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 14:00:19,032 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:00:45,813 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 14:00:45,813 INFO  [Log] X 
+2019-06-10 14:00:45,813 INFO  [Log] X 
+2019-06-10 14:00:46,816 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:00:46,817 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 14:00:46,817 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:01:04,773 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:04,893 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 14:01:05,575 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:05,644 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 14:01:06,314 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:06,393 INFO  [Log] Signup_button is found 
+2019-06-10 14:01:06,444 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:14,888 INFO  [Log] Signup button is found 
+2019-06-10 14:01:15,365 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:15,579 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 14:01:15,579 INFO  [Log] khaja is entered as First Name on the Registration page 
+2019-06-10 14:01:15,808 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 14:01:15,808 INFO  [Log] hussain is entered as Last Name on the Registration page 
+2019-06-10 14:01:16,186 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 14:01:16,186 INFO  [Log] 9290543618 is entered as Email on the Registration page 
+2019-06-10 14:01:16,601 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 14:01:16,602 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 14:01:17,310 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-06-10 14:01:17,310 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-06-10 14:01:17,311 INFO  [Log] Day drop down is found on Registration page 
+2019-06-10 14:01:18,631 INFO  [Log] dob_txtbox is clicked on the Registration page 
+2019-06-10 14:01:43,640 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:43,730 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 14:01:43,867 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:43,983 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 14:01:44,615 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:44,681 INFO  [Log] Signup_button is found 
+2019-06-10 14:01:44,733 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:50,576 INFO  [Log] Signup button is found 
+2019-06-10 14:01:50,874 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:01:51,069 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 14:01:51,069 INFO  [Log] poola is entered as First Name on the Registration page 
+2019-06-10 14:01:51,187 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 14:01:51,187 INFO  [Log] vali is entered as Last Name on the Registration page 
+2019-06-10 14:01:51,395 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 14:01:51,395 INFO  [Log] 7358681940 is entered as Email on the Registration page 
+2019-06-10 14:01:51,625 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 14:01:51,625 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 14:01:51,798 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-06-10 14:01:51,798 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-06-10 14:01:51,799 INFO  [Log] Day drop down is found on Registration page 
+2019-06-10 14:01:52,099 INFO  [Log] dob_txtbox is clicked on the Registration page 
+2019-06-10 14:02:00,250 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 14:02:00,250 INFO  [Log] X 
+2019-06-10 14:02:00,250 INFO  [Log] X 
+2019-06-10 14:02:00,943 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:02:00,944 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LoginRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 14:02:00,944 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:02:17,692 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:17,770 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 14:02:18,445 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:18,567 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 14:02:19,121 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:25,501 INFO  [Log] Member_Login is found on the Home page 
+2019-06-10 14:02:29,870 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:30,066 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 14:02:30,313 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:30,475 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:02:30,524 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:35,603 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:02:41,454 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:41,604 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 14:02:41,844 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:41,957 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:02:42,002 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:46,107 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:02:50,155 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:50,299 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 14:02:50,529 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:50,664 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:02:50,697 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:02:56,143 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:03:01,485 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 14:03:01,485 INFO  [Log] X 
+2019-06-10 14:03:01,485 INFO  [Log] X 
+2019-06-10 14:46:04,223 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:46:04,257 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 14:46:04,257 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:46:53,837 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 14:46:53,837 INFO  [Log] X 
+2019-06-10 14:46:53,837 INFO  [Log] X 
+2019-06-10 14:46:57,224 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:46:57,224 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 14:46:57,224 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:47:24,316 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:47:24,579 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 14:47:25,217 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:47:25,298 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 14:47:25,928 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:47:25,977 INFO  [Log] Signup_button is found 
+2019-06-10 14:47:26,016 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:47:41,753 INFO  [Log] Signup button is found 
+2019-06-10 14:47:42,961 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:47:44,319 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 14:47:44,319 INFO  [Log] khaja is entered as First Name on the Registration page 
+2019-06-10 14:47:44,931 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 14:47:44,931 INFO  [Log] hussain is entered as Last Name on the Registration page 
+2019-06-10 14:47:45,463 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 14:47:45,463 INFO  [Log] 9290543618 is entered as Email on the Registration page 
+2019-06-10 14:47:45,637 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 14:47:45,637 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 14:47:45,847 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-06-10 14:47:45,847 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-06-10 14:47:45,848 INFO  [Log] Day drop down is found on Registration page 
+2019-06-10 14:47:46,973 INFO  [Log] dob_txtbox is clicked on the Registration page 
+2019-06-10 14:48:22,256 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:48:22,412 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 14:48:23,066 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:48:23,157 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 14:48:23,776 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:48:23,849 INFO  [Log] Signup_button is found 
+2019-06-10 14:48:23,905 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:48:32,518 INFO  [Log] Signup button is found 
+2019-06-10 14:48:32,743 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:48:32,877 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 14:48:32,877 INFO  [Log] poola is entered as First Name on the Registration page 
+2019-06-10 14:48:32,992 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 14:48:32,992 INFO  [Log] vali is entered as Last Name on the Registration page 
+2019-06-10 14:48:33,179 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 14:48:33,179 INFO  [Log] 7358681940 is entered as Email on the Registration page 
+2019-06-10 14:48:33,625 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 14:48:33,625 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 14:48:33,642 ERROR [Log] Confirm password text box is not found on the Registration page org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Invalid Mobile number, Please provide a valid number.}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LP-5CD7465GP0', ip: '172.23.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\khaja.h\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: beb49ede3ccf64090f529d6110623761
+*** Element info: {Using=xpath, value=//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']} 
+2019-06-10 14:48:37,411 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 14:48:37,411 INFO  [Log] X 
+2019-06-10 14:48:37,411 INFO  [Log] X 
+2019-06-10 14:48:38,053 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:48:38,053 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LoginRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 14:48:38,053 INFO  [Log] **************************************************************************************** 
+2019-06-10 14:49:00,990 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:01,115 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 14:49:01,731 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:01,826 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 14:49:02,182 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:15,518 INFO  [Log] Member_Login is found on the Home page 
+2019-06-10 14:49:17,606 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:17,777 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 14:49:18,016 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:18,120 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:49:18,158 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:23,249 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:49:27,310 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:27,519 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 14:49:27,762 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:27,898 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:49:27,949 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:34,122 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:49:38,166 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:38,317 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 14:49:38,586 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:38,801 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:49:38,841 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 14:49:45,014 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 14:49:50,240 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 14:49:50,240 INFO  [Log] X 
+2019-06-10 14:49:50,240 INFO  [Log] X 
+2019-06-10 15:03:28,610 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:03:28,611 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 15:03:28,611 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:03:58,302 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 15:03:58,303 INFO  [Log] X 
+2019-06-10 15:03:58,303 INFO  [Log] X 
+2019-06-10 15:04:00,161 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:04:00,161 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 15:04:00,161 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:04:39,871 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 15:04:40,066 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 15:04:40,403 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 15:04:40,545 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 15:04:41,173 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 15:04:41,225 INFO  [Log] Signup_button is found 
+2019-06-10 15:04:41,270 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 15:04:50,858 INFO  [Log] Signup button is found 
+2019-06-10 15:04:53,102 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 15:04:54,241 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 15:04:54,241 INFO  [Log] khaja is entered as First Name on the Registration page 
+2019-06-10 15:04:54,723 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 15:04:54,723 INFO  [Log] hussain is entered as Last Name on the Registration page 
+2019-06-10 15:04:55,119 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 15:04:55,119 INFO  [Log] 9290543618 is entered as Email on the Registration page 
+2019-06-10 15:04:55,464 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 15:04:55,464 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 15:04:55,939 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-06-10 15:04:55,939 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-06-10 15:04:55,941 INFO  [Log] Day drop down is found on Registration page 
+2019-06-10 15:04:56,783 INFO  [Log] dob_txtbox is clicked on the Registration page 
+2019-06-10 15:05:39,383 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 15:05:39,384 INFO  [Log] X 
+2019-06-10 15:05:39,384 INFO  [Log] X 
+2019-06-10 15:05:40,152 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:05:40,152 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LoginRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 15:05:40,152 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:06:12,529 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 15:06:12,623 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 15:06:13,342 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 15:06:13,433 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 15:06:14,129 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 15:07:36,419 ERROR [Log] Member_Login is not found on the Home page org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Member Login' (tried for 60 second(s) with 500 MILLISECONDS interval) 
+2019-06-10 15:07:37,336 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 15:07:37,336 INFO  [Log] X 
+2019-06-10 15:07:37,336 INFO  [Log] X 
+2019-06-10 15:10:55,713 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:10:55,714 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 15:10:55,714 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:11:27,943 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 15:11:27,944 INFO  [Log] X 
+2019-06-10 15:11:27,944 INFO  [Log] X 
+2019-06-10 15:11:29,276 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:11:29,276 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 15:11:29,276 INFO  [Log] **************************************************************************************** 
+2019-06-10 15:11:54,156 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 15:11:54,259 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 15:12:35,758 ERROR [Log] SpiceCash_SpiceClub_Member_button is not found on the Home pageorg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LP-5CD7465GP0', ip: '172.23.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\khaja.h\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 36325eaee74f1362691ef600973d168f
+*** Element info: {Using=xpath, value=//*[text()='SpiceClub Members']} 
+2019-06-10 15:12:41,782 INFO  [Log] Signup_button is not found org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'LP-5CD7465GP0', ip: '172.23.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\khaja.h\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 36325eaee74f1362691ef600973d168f
+*** Element info: {Using=xpath, value=//a[@href='https://book.spicejet.com/Register.aspx']} 
+2019-06-10 18:28:26,945 INFO  [Log] **************************************************************************************** 
+2019-06-10 18:28:26,961 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 BookTicketRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 18:28:26,961 INFO  [Log] **************************************************************************************** 
+2019-06-10 18:28:51,653 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 18:28:51,653 INFO  [Log] X 
+2019-06-10 18:28:51,653 INFO  [Log] X 
+2019-06-10 18:28:52,841 INFO  [Log] **************************************************************************************** 
+2019-06-10 18:28:52,841 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 RegistrationRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 18:28:52,841 INFO  [Log] **************************************************************************************** 
+2019-06-10 18:29:09,279 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:09,415 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 18:29:10,043 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:10,111 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 18:29:10,771 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:10,887 INFO  [Log] Signup_button is found 
+2019-06-10 18:29:10,939 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:17,219 INFO  [Log] Signup button is found 
+2019-06-10 18:29:17,789 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:17,983 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 18:29:17,983 INFO  [Log] khaja is entered as First Name on the Registration page 
+2019-06-10 18:29:18,199 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 18:29:18,199 INFO  [Log] hussain is entered as Last Name on the Registration page 
+2019-06-10 18:29:18,711 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 18:29:18,711 INFO  [Log] 9290543618 is entered as Email on the Registration page 
+2019-06-10 18:29:19,067 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 18:29:19,067 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 18:29:19,313 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-06-10 18:29:19,313 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-06-10 18:29:19,317 INFO  [Log] Day drop down is found on Registration page 
+2019-06-10 18:29:20,124 INFO  [Log] dob_txtbox is clicked on the Registration page 
+2019-06-10 18:29:44,485 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:44,561 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 18:29:45,177 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:45,225 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 18:29:45,905 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:46,025 INFO  [Log] Signup_button is found 
+2019-06-10 18:29:46,145 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:52,597 INFO  [Log] Signup button is found 
+2019-06-10 18:29:52,945 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:29:53,085 INFO  [Log] FirstName text box is found on Registration page 
+2019-06-10 18:29:53,085 INFO  [Log] poola is entered as First Name on the Registration page 
+2019-06-10 18:29:53,223 INFO  [Log] Last Name text box is found on Registration page 
+2019-06-10 18:29:53,223 INFO  [Log] vali is entered as Last Name on the Registration page 
+2019-06-10 18:29:53,436 INFO  [Log] Mobile number text box is found on the Registration page 
+2019-06-10 18:29:53,436 INFO  [Log] 7358681940 is entered as Email on the Registration page 
+2019-06-10 18:29:53,582 INFO  [Log] Password text box is found on the Registratio page 
+2019-06-10 18:29:53,582 INFO  [Log] Welcome@123 is entered as password on the Registration page 
+2019-06-10 18:29:53,824 INFO  [Log] Confirmpassword text box is found on the Registration page 
+2019-06-10 18:29:53,824 INFO  [Log] Welcome@123 is entered as confirm password on the Registration page 
+2019-06-10 18:29:53,824 INFO  [Log] Day drop down is found on Registration page 
+2019-06-10 18:29:53,988 INFO  [Log] dob_txtbox is clicked on the Registration page 
+2019-06-10 18:30:00,744 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 18:30:00,744 INFO  [Log] X 
+2019-06-10 18:30:00,744 INFO  [Log] X 
+2019-06-10 18:30:01,041 INFO  [Log] **************************************************************************************** 
+2019-06-10 18:30:01,041 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LoginRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2019-06-10 18:30:01,041 INFO  [Log] **************************************************************************************** 
+2019-06-10 18:30:15,349 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:15,413 INFO  [Log] Login_Signup_button is found on the Home page 
+2019-06-10 18:30:16,041 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:16,113 INFO  [Log] SpiceCash_SpiceClub_Member_button is found on the Home page 
+2019-06-10 18:30:16,533 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:22,185 INFO  [Log] Member_Login is found on the Home page 
+2019-06-10 18:30:24,338 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:24,506 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 18:30:24,773 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:24,909 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 18:30:24,957 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:30,274 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 18:30:34,402 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:34,562 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 18:30:34,895 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:35,062 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 18:30:35,098 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:40,578 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 18:30:44,675 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:44,844 INFO  [Log] mobile_number is found on the Home page 
+2019-06-10 18:30:45,084 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:45,245 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 18:30:45,285 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2019-06-10 18:30:51,238 INFO  [Log] password_txtbox is found on the Home page 
+2019-06-10 18:30:56,728 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2019-06-10 18:30:56,728 INFO  [Log] X 
+2019-06-10 18:30:56,728 INFO  [Log] X 

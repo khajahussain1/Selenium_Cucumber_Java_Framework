@@ -73,7 +73,7 @@
 							<!-- optional, defaults to outputDirectory if not specified -->
 							<!-- <inputDirectory>${project.build.directory}/jsonReports</inputDirectory> -->
 
-							<!-- <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput> -->
+							<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
 							<!-- <skippedFails>false</skippedFails> <enableFlashCharts>true</enableFlashCharts> -->
 							<!-- <buildNumber>12</buildNumber> -->
 
