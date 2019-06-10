@@ -13,11 +13,11 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 14196372879,
+  "duration": 18387509459,
   "status": "passed"
 });
 formatter.before({
-  "duration": 98549,
+  "duration": 65700,
   "status": "passed"
 });
 formatter.scenario({
@@ -92,58 +92,58 @@ formatter.match({
   "location": "HomepageSteps.launch_the_spicejet_application()"
 });
 formatter.result({
-  "duration": 3007813,
+  "duration": 4261760,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.move_to_mouse_on_Login_SignUp_button()"
 });
 formatter.result({
-  "duration": 133299804,
+  "duration": 175227568,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.move_to_the_mouse_SpiceCash_SpiceClub_Member_button()"
 });
 formatter.result({
-  "duration": 698329882,
+  "duration": 708550254,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_Navigate_to_LogIn_Page()"
 });
 formatter.result({
-  "duration": 6070096842,
+  "duration": 5932311372,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_enters_Credentials_to_LogIn(DataTable)"
 });
 formatter.result({
-  "duration": 31080942865,
+  "duration": 28942815684,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.message_displayed_Login_Successfully()"
 });
 formatter.result({
-  "duration": 87221,
+  "duration": 104590,
   "status": "passed"
 });
 formatter.after({
-  "duration": 62679,
+  "duration": 83823,
   "status": "passed"
 });
 formatter.after({
-  "duration": 56260,
+  "duration": 65322,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3454595090,
+  "duration": 81180,
   "status": "passed"
 });
 formatter.after({
-  "duration": 67210,
+  "duration": 3154151356,
   "status": "passed"
 });
 });
