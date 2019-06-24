@@ -3,9 +3,9 @@
 
 <suite name="Spicejet" >
 
-	<listeners>
+	<!-- <listeners>
 		<listener class-name="com.cucumber.utility.Listener" />
-	</listeners>
+	</listeners> -->
 	
 	<test name="BookTick">
 		<classes>
