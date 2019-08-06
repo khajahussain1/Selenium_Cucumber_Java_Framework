@@ -1,366 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
-    <line>
-      <![CDATA[About to begin executing Suite Spicejet]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test BookTick]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookTicketRunner.beforeclass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookTicketRunner.beforeclass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in com.cucumber.TestRunner.BookTicketRunner]]>
-    </line>
-    <line>
-      <![CDATA[Test Method had the following parameters : nullBook your ticket,]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookTicketRunner.testDownClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookTicketRunner.testDownClass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test BookTick]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test Registration]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : RegistrationRunner.beforeclass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : RegistrationRunner.beforeclass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in com.cucumber.TestRunner.RegistrationRunner]]>
-    </line>
-    <line>
-      <![CDATA[Test Method had the following parameters : nullSpicejet registration,]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Failed]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : RegistrationRunner.testDownClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : RegistrationRunner.testDownClass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test Registration]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test LoginRunner]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : LoginRunner.beforeclass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : LoginRunner.beforeclass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in com.cucumber.TestRunner.LoginRunner]]>
-    </line>
-    <line>
-      <![CDATA[Test Method had the following parameters : nullLogin with Valid Credentials,]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : LoginRunner.testDownClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : LoginRunner.testDownClass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
-    </line>
   </reporter-output>
-  <suite name="Spicejet" duration-ms="213701" started-at="2019-06-11T12:30:55Z" finished-at="2019-06-11T12:34:29Z">
+  <suite name="Spicejet" duration-ms="125460" started-at="2019-08-06T11:22:14Z" finished-at="2019-08-06T11:24:20Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@402f32ff]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@7f9a81e8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.LoginRunner@d2cc05a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c0e2abd]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@396a51ab]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@5419f379]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="BookTick" duration-ms="37640" started-at="2019-06-11T12:30:55Z" finished-at="2019-06-11T12:31:33Z">
-      <class name="com.cucumber.TestRunner.BookTicketRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@402f32ff]" name="setUpClass" is-config="true" duration-ms="556" started-at="2019-06-11T18:00:55Z" finished-at="2019-06-11T18:00:56Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@402f32ff]" name="beforeclass" is-config="true" duration-ms="117" started-at="2019-06-11T18:00:56Z" finished-at="2019-06-11T18:00:56Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BookTicketRunner.beforeclass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@402f32ff]" name="feature" duration-ms="35938" started-at="2019-06-11T18:00:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-11T18:01:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Book your ticket]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in com.cucumber.TestRunner.BookTicketRunner]]>
-            </line>
-            <line>
-              <![CDATA[Test Method had the following parameters : nullBook your ticket,]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@402f32ff]" name="tearDownClass" is-config="true" duration-ms="920" started-at="2019-06-11T18:01:32Z" finished-at="2019-06-11T18:01:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@402f32ff]" name="testDownClass" is-config="true" duration-ms="0" started-at="2019-06-11T18:01:32Z" finished-at="2019-06-11T18:01:32Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BookTicketRunner.testDownClass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDownClass -->
-      </class> <!-- com.cucumber.TestRunner.BookTicketRunner -->
-    </test> <!-- BookTick -->
-    <test name="Registration" duration-ms="91267" started-at="2019-06-11T12:31:33Z" finished-at="2019-06-11T12:33:04Z">
-      <class name="com.cucumber.TestRunner.RegistrationRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@7f9a81e8]" name="setUpClass" is-config="true" duration-ms="68" started-at="2019-06-11T18:01:33Z" finished-at="2019-06-11T18:01:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@7f9a81e8]" name="beforeclass" is-config="true" duration-ms="40" started-at="2019-06-11T18:01:33Z" finished-at="2019-06-11T18:01:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : RegistrationRunner.beforeclass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@7f9a81e8]" name="feature" duration-ms="90883" started-at="2019-06-11T18:01:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-11T18:03:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Spicejet registration]]>
-              </value>
-            </param>
-          </params>
-          <exception class="cucumber.runtime.CucumberException">
-            <message>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Invalid Mobile number, Please provide a valid number.}
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds: null
-Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
-System info: host: 'LP-5CD7465GP0', ip: '172.23.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\khaja.h\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 12716957eee54899fcc038d28edcdc56
-*** Element info: {Using=xpath, value=//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Invalid Mobile number, Please provide a valid number.}
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds: null
-Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
-System info: host: 'LP-5CD7465GP0', ip: '172.23.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\khaja.h\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 12716957eee54899fcc038d28edcdc56
-*** Element info: {Using=xpath, value=//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']}
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Invalid Mobile number, Please provide a valid number.}
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds: null
-Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
-System info: host: 'LP-5CD7465GP0', ip: '172.23.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\khaja.h\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 12716957eee54899fcc038d28edcdc56
-*** Element info: {Using=xpath, value=//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
-	at com.cucumber.PageObjects.RegistrationPageObjects.setconfirmpassword(RegistrationPageObjects.java:138)
-	at com.cucumber.stepdefination.RegistrationSteps.enter_confirm_password_as(RegistrationSteps.java:49)
-	at ✽.Then enter confirm password as "Welcome@123"(src/test/resources/features/Registration.feature:42)
-]]>
-            </full-stacktrace>
-          </exception> <!-- cucumber.runtime.CucumberException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in com.cucumber.TestRunner.RegistrationRunner]]>
-            </line>
-            <line>
-              <![CDATA[Test Method had the following parameters : nullSpicejet registration,]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Failed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@7f9a81e8]" name="tearDownClass" is-config="true" duration-ms="221" started-at="2019-06-11T18:03:04Z" finished-at="2019-06-11T18:03:04Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@7f9a81e8]" name="testDownClass" is-config="true" duration-ms="0" started-at="2019-06-11T18:03:04Z" finished-at="2019-06-11T18:03:04Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : RegistrationRunner.testDownClass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDownClass -->
-      </class> <!-- com.cucumber.TestRunner.RegistrationRunner -->
-    </test> <!-- Registration -->
-    <test name="LoginRunner" duration-ms="84670" started-at="2019-06-11T12:33:04Z" finished-at="2019-06-11T12:34:29Z">
+    <test name="LoginRunner" duration-ms="52038" started-at="2019-08-06T11:22:14Z" finished-at="2019-08-06T11:23:06Z">
       <class name="com.cucumber.TestRunner.LoginRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@d2cc05a]" name="setUpClass" is-config="true" duration-ms="98" started-at="2019-06-11T18:03:04Z" finished-at="2019-06-11T18:03:04Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c0e2abd]" name="setUpClass" is-config="true" duration-ms="668" started-at="2019-08-06T16:52:14Z" finished-at="2019-08-06T16:52:15Z">
           <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@d2cc05a]" name="beforeclass" is-config="true" duration-ms="28" started-at="2019-06-11T18:03:04Z" finished-at="2019-06-11T18:03:04Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c0e2abd]" name="beforeclass" is-config="true" duration-ms="131" started-at="2019-08-06T16:52:15Z" finished-at="2019-08-06T16:52:15Z">
           <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : LoginRunner.beforeclass]]>
-            </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.LoginRunner@d2cc05a]" name="feature" duration-ms="84389" started-at="2019-06-11T18:03:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-11T18:04:29Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c0e2abd]" name="feature" duration-ms="50281" started-at="2019-08-06T16:52:15Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-06T16:53:06Z">
           <params>
             <param index="0">
               <value>
@@ -369,35 +29,79 @@ Session ID: 12716957eee54899fcc038d28edcdc56
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in com.cucumber.TestRunner.LoginRunner]]>
-            </line>
-            <line>
-              <![CDATA[Test Method had the following parameters : nullLogin with Valid Credentials,]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@d2cc05a]" name="testDownClass" is-config="true" duration-ms="0" started-at="2019-06-11T18:04:29Z" finished-at="2019-06-11T18:04:29Z">
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c0e2abd]" name="testDownClass" is-config="true" duration-ms="6" started-at="2019-08-06T16:53:06Z" finished-at="2019-08-06T16:53:06Z">
           <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : LoginRunner.testDownClass]]>
-            </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@d2cc05a]" name="tearDownClass" is-config="true" duration-ms="147" started-at="2019-06-11T18:04:29Z" finished-at="2019-06-11T18:04:29Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c0e2abd]" name="tearDownClass" is-config="true" duration-ms="787" started-at="2019-08-06T16:53:06Z" finished-at="2019-08-06T16:53:06Z">
           <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
-            </line>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cucumber.TestRunner.LoginRunner -->
     </test> <!-- LoginRunner -->
+    <test name="BookTick" duration-ms="17397" started-at="2019-08-06T11:23:07Z" finished-at="2019-08-06T11:23:24Z">
+      <class name="com.cucumber.TestRunner.BookTicketRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@396a51ab]" name="setUpClass" is-config="true" duration-ms="66" started-at="2019-08-06T16:53:07Z" finished-at="2019-08-06T16:53:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@396a51ab]" name="beforeclass" is-config="true" duration-ms="25" started-at="2019-08-06T16:53:07Z" finished-at="2019-08-06T16:53:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@396a51ab]" name="feature" duration-ms="17170" started-at="2019-08-06T16:53:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-06T16:53:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book your ticket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@396a51ab]" name="testDownClass" is-config="true" duration-ms="2" started-at="2019-08-06T16:53:24Z" finished-at="2019-08-06T16:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@396a51ab]" name="tearDownClass" is-config="true" duration-ms="122" started-at="2019-08-06T16:53:24Z" finished-at="2019-08-06T16:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.BookTicketRunner -->
+    </test> <!-- BookTick -->
+    <test name="Registration" duration-ms="55936" started-at="2019-08-06T11:23:24Z" finished-at="2019-08-06T11:24:20Z">
+      <class name="com.cucumber.TestRunner.RegistrationRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@5419f379]" name="setUpClass" is-config="true" duration-ms="36" started-at="2019-08-06T16:53:24Z" finished-at="2019-08-06T16:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@5419f379]" name="beforeclass" is-config="true" duration-ms="27" started-at="2019-08-06T16:53:24Z" finished-at="2019-08-06T16:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@5419f379]" name="feature" duration-ms="55710" started-at="2019-08-06T16:53:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-06T16:54:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spicejet registration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@5419f379]" name="testDownClass" is-config="true" duration-ms="1" started-at="2019-08-06T16:54:20Z" finished-at="2019-08-06T16:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@5419f379]" name="tearDownClass" is-config="true" duration-ms="154" started-at="2019-08-06T16:54:20Z" finished-at="2019-08-06T16:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.RegistrationRunner -->
+    </test> <!-- Registration -->
   </suite> <!-- Spicejet -->
 </testng-results>

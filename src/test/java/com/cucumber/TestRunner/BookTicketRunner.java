@@ -12,7 +12,7 @@ import com.cucumber.utility.Log;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@CucumberOptions(features = "src/test/resources/features/BookTicket.feature", glue = {
+@CucumberOptions(features = { "src/test/resources/features/BookTicket.feature" }, glue = {
 		"com/cucumber/stepdefination" }, plugin = { "json:target/cucumber.json", "html:target/cucumber-pretty",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html",
 				"pretty" }, monochrome = true, dryRun = false, strict = true)

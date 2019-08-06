@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Spicejet]">
-  <listeners>
-    <listener class-name="com.cucumber.utility.Listener"/>
-  </listeners>
+  <test name="LoginRunner">
+    <classes>
+      <class name="com.cucumber.TestRunner.LoginRunner"/>
+    </classes>
+  </test> <!-- LoginRunner -->
   <test name="BookTick">
     <classes>
       <class name="com.cucumber.TestRunner.BookTicketRunner"/>
@@ -14,38 +16,4 @@
       <class name="com.cucumber.TestRunner.RegistrationRunner"/>
     </classes>
   </test> <!-- Registration -->
-  <test name="LoginRunner">
-    <classes>
-      <class name="com.cucumber.TestRunner.LoginRunner"/>
-    </classes>
-  </test> <!-- LoginRunner -->
-  <test name="Registration(failed)">
-    <classes>
-      <class name="com.cucumber.TestRunner.LoginRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-          <include name="testDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.LoginRunner -->
-      <class name="com.cucumber.TestRunner.RegistrationRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.RegistrationRunner -->
-      <class name="com.cucumber.TestRunner.BookTicketRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-          <include name="beforeclass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.BookTicketRunner -->
-    </classes>
-  </test> <!-- Registration(failed) -->
 </suite> <!-- Failed suite [Spicejet] -->

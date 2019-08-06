@@ -52,7 +52,8 @@
 			<plugin>
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
-				<version>3.15.0</version>
+				<version>4.8.0</version>
+				<!-- <version>3.15.0</version> -->
 				<executions>
 					<execution>
 						<id>execution</id>
@@ -66,13 +67,15 @@
 								of Cucumber Reports entirely, defaults to false if not specified -->
 							<!-- <skip>true</skip> -->
 
-							<!-- <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory> -->
+							
 							<!-- output directory for the generated report -->
 							<outputDirectory>${project.build.directory}/cucumber-JVM-reports/</outputDirectory>
+							<!-- <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory> -->
 
 							<!-- optional, defaults to outputDirectory if not specified -->
-							<!--  <inputDirectory>${project.build.directory}/jsonReports</inputDirectory> -->
+							<!-- <inputDirectory>${project.build.directory}/jsonReports</inputDirectory> -->
 
+                              <inputDirectory>${project.build.directory}/cucumber.json</inputDirectory>
 							<!-- <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput> -->
 							<!-- <skippedFails>false</skippedFails> <enableFlashCharts>true</enableFlashCharts> -->
 							<!-- <buildNumber>12</buildNumber> -->
