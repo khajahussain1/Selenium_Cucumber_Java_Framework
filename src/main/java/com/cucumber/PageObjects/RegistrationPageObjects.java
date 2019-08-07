@@ -39,7 +39,7 @@ public class RegistrationPageObjects {
 
 	@FindBy(xpath = "//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']")
 	WebElement confirm_password_txtbox;
-
+	
 	@FindBy(xpath = "//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB']")
 	WebElement dob_txtbox;
 
@@ -84,6 +84,7 @@ public class RegistrationPageObjects {
 
 	public void setlastname(String lastname) {
 		try {
+			testBase.WaiteForElement(laststname_txtbox);
 
 			laststname_txtbox.sendKeys(lastname);
 			Log.info("Last Name text box is found on Registration page");
@@ -99,6 +100,7 @@ public class RegistrationPageObjects {
 	public void setmobilenumber(String mobilenumber) {
 		try {
 
+			testBase.WaiteForElement(mobilenumber_txtbox);
 			mobilenumber_txtbox.sendKeys(mobilenumber);
 			try {
 			Alert alt = driver.switchTo().alert();
@@ -121,6 +123,7 @@ public class RegistrationPageObjects {
 	public void setpassword(String password) {
 		try {
 
+			testBase.WaiteForElement(password_txtbox);
 			password_txtbox.sendKeys(password);
 			Log.info("Password text box is found on the Registratio page");
 			Log.info(password + " is entered as password on the Registration page");
@@ -135,6 +138,7 @@ public class RegistrationPageObjects {
 	public void setconfirmpassword(String confirmpassword) {
 		try {
 
+			testBase.WaiteForElement(confirm_password_txtbox);
 			confirm_password_txtbox.sendKeys(confirmpassword);
 			Log.info("Confirmpassword text box is found on the Registration page");
 			Log.info(confirmpassword + " is entered as confirm password on the Registration page");
@@ -149,6 +153,7 @@ public class RegistrationPageObjects {
 	public void click_on_dob_txtbox() {
 		try {
 			Log.info("Day drop down is found on Registration page");
+			testBase.WaiteForElement(dob_txtbox);
 			dob_txtbox.click();
 
 			Log.info("dob_txtbox is clicked on the Registration page");
@@ -162,6 +167,7 @@ public class RegistrationPageObjects {
 	}
 
 	public void click_on_year_button() {
+		testBase.WaiteForElement(year_button);
 		year_button.click();
 
 	}
@@ -171,11 +177,13 @@ public class RegistrationPageObjects {
 	}
 
 	public void click_on_day_button() {
+		testBase.WaiteForElement(day_button);
 		day_button.click();
 
 	}
 
 	public void setemailaddress(String emailaddress) {
+		testBase.WaiteForElement(email_address_txtbox);
 		email_address_txtbox.sendKeys(emailaddress);
 	}
 
@@ -184,6 +192,7 @@ public class RegistrationPageObjects {
 	}
 
 	public void clickonsubmitbutton() {
+		testBase.WaiteForElement(submit_button);
 		submit_button.click();
 		// driver.close();
 		try {

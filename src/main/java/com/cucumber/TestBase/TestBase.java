@@ -16,7 +16,7 @@ public class TestBase {
 
 	public TestBase(WebDriver driver) {
 		this.driver = driver;
-		//DOMConfigurator.configure("log4j.xml");
+		// DOMConfigurator.configure("log4j.xml");
 	}
 
 	public void WaiteForElement(WebElement element) {
@@ -40,10 +40,10 @@ public class TestBase {
 			// if present consume the alert
 			alert.accept();
 			// ( Now, click on ok or cancel button )
-			
+
 		} catch (NoAlertPresentException ex) {
 			// Alert not present
-			//ex.printStackTrace();
+			// ex.printStackTrace();
 		}
 
 		return presentFlag;
