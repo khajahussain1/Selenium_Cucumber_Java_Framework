@@ -26,16 +26,30 @@ public class WebDriverManager {
 		environment = FileReaderManager.getInstance().getConfigReader().getEnvironment();
 	}
 
-	public WebDriver getDriver() {
+	/*public WebDriver getDriver() {
 
 		if (driver == null) {
 
 			driver = createDriver();
 		}
 		return driver;
-	}
+	}*/
+	
+	/*private WebDriver createDriver() {
 
-	private WebDriver createDriver() {
+		if (environment.name().equals("LOCAL")) {
+
+			driver = createLocalDriver();
+
+		} else if (environment.name().equals("REMOTE")) {
+
+			driver = createRemoteDriver();
+		}
+		return driver;
+
+	}*/
+
+	public WebDriver getDriver() {
 
 		if (environment.name().equals("LOCAL")) {
 

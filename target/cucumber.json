@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 12556167656,
+              "duration": 13221664703,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 358324,
+              "duration": 74761,
               "status": "passed"
             },
             "match": {
@@ -23,14 +23,14 @@
             }
           }
         ],
-        "line": 50,
+        "line": 27,
         "name": "User land on Spicejet Homepage",
         "description": "",
         "id": "spicejet-registration;user-land-on-spicejet-homepage;;2",
         "after": [
           {
             "result": {
-              "duration": 43422,
+              "duration": 55504,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 75516,
+              "duration": 67964,
               "status": "passed"
             },
             "match": {
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 53616,
+              "duration": 69097,
               "status": "passed"
             },
             "match": {
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 5303812022,
+              "duration": 3308048482,
               "status": "passed"
             },
             "match": {
@@ -70,10 +70,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4337653,
+              "duration": 2554715,
               "status": "passed"
             },
-            "line": 31,
+            "line": 8,
             "name": "User is on home page",
             "match": {
               "location": "HomepageSteps.launch_the_spicejet_application()"
@@ -82,10 +82,10 @@
           },
           {
             "result": {
-              "duration": 156886496,
+              "duration": 144510139,
               "status": "passed"
             },
-            "line": 32,
+            "line": 9,
             "name": "move to mouse on Login/SignUp button",
             "match": {
               "location": "HomepageSteps.move_to_mouse_on_Login_SignUp_button()"
@@ -94,10 +94,10 @@
           },
           {
             "result": {
-              "duration": 736884434,
+              "duration": 670416174,
               "status": "passed"
             },
-            "line": 33,
+            "line": 10,
             "name": "move to the mouse SpiceCash/SpiceClub Member button",
             "match": {
               "location": "HomepageSteps.move_to_the_mouse_SpiceCash_SpiceClub_Member_button()"
@@ -106,10 +106,10 @@
           },
           {
             "result": {
-              "duration": 830800581,
+              "duration": 642773077,
               "status": "passed"
             },
-            "line": 34,
+            "line": 11,
             "name": "move to the mouse Signup button",
             "match": {
               "location": "HomepageSteps.move_to_the_mouse_Signup_button()"
@@ -118,10 +118,10 @@
           },
           {
             "result": {
-              "duration": 3516244487,
+              "duration": 5123675586,
               "status": "passed"
             },
-            "line": 35,
+            "line": 12,
             "name": "click on Signup button",
             "match": {
               "location": "HomepageSteps.click_on_Signup_button()"
@@ -130,10 +130,10 @@
           },
           {
             "result": {
-              "duration": 130265,
+              "duration": 90620,
               "status": "passed"
             },
-            "line": 36,
+            "line": 13,
             "name": "user land on registration page",
             "match": {
               "location": "HomepageSteps.user_land_on_registration_page()"
@@ -142,10 +142,10 @@
           },
           {
             "result": {
-              "duration": 371841203,
+              "duration": 479607029,
               "status": "passed"
             },
-            "line": 37,
+            "line": 14,
             "name": "select title",
             "match": {
               "location": "RegistrationSteps.select_title()"
@@ -154,10 +154,10 @@
           },
           {
             "result": {
-              "duration": 460144984,
+              "duration": 267371661,
               "status": "passed"
             },
-            "line": 38,
+            "line": 15,
             "name": "enter firstname as \"khaja\"",
             "match": {
               "arguments": [
@@ -175,10 +175,10 @@
           },
           {
             "result": {
-              "duration": 340596737,
+              "duration": 250073156,
               "status": "passed"
             },
-            "line": 39,
+            "line": 16,
             "name": "enter lastname as \"hussain\"",
             "match": {
               "arguments": [
@@ -196,10 +196,10 @@
           },
           {
             "result": {
-              "duration": 448864745,
+              "duration": 290444515,
               "status": "passed"
             },
-            "line": 40,
+            "line": 17,
             "name": "enter mobile number as \"9290543618\"",
             "match": {
               "arguments": [
@@ -217,10 +217,10 @@
           },
           {
             "result": {
-              "duration": 461627744,
+              "duration": 297341790,
               "status": "passed"
             },
-            "line": 41,
+            "line": 18,
             "name": "enter password as \"Welcome@123\"",
             "match": {
               "arguments": [
@@ -238,10 +238,10 @@
           },
           {
             "result": {
-              "duration": 326590740,
+              "duration": 296383489,
               "status": "passed"
             },
-            "line": 42,
+            "line": 19,
             "name": "enter confirm password as \"Welcome@123\"",
             "match": {
               "arguments": [
@@ -259,10 +259,10 @@
           },
           {
             "result": {
-              "duration": 1150777610,
+              "duration": 2159550331,
               "status": "passed"
             },
-            "line": 43,
+            "line": 20,
             "name": "select date of birth",
             "match": {
               "location": "RegistrationSteps.select_date_of_birth()"
@@ -271,10 +271,10 @@
           },
           {
             "result": {
-              "duration": 505756792,
+              "duration": 338236100,
               "status": "passed"
             },
-            "line": 44,
+            "line": 21,
             "name": "email address as \"test@gmail.com\"",
             "match": {
               "arguments": [
@@ -292,10 +292,10 @@
           },
           {
             "result": {
-              "duration": 163526261,
+              "duration": 119573545,
               "status": "passed"
             },
-            "line": 45,
+            "line": 22,
             "name": "check on checkbox",
             "match": {
               "location": "RegistrationSteps.check_on_checkbox()"
@@ -304,10 +304,10 @@
           },
           {
             "result": {
-              "duration": 2451453443,
+              "duration": 2597733682,
               "status": "passed"
             },
-            "line": 46,
+            "line": 23,
             "name": "click on submit button",
             "match": {
               "location": "RegistrationSteps.click_on_submit_button()"
@@ -326,7 +326,7 @@
         "before": [
           {
             "result": {
-              "duration": 12861534558,
+              "duration": 15541202981,
               "status": "passed"
             },
             "match": {
@@ -335,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 57392,
+              "duration": 69475,
               "status": "passed"
             },
             "match": {
@@ -343,14 +343,14 @@
             }
           }
         ],
-        "line": 51,
+        "line": 28,
         "name": "User land on Spicejet Homepage",
         "description": "",
         "id": "spicejet-registration;user-land-on-spicejet-homepage;;3",
         "after": [
           {
             "result": {
-              "duration": 46065,
+              "duration": 41911,
               "status": "passed"
             },
             "match": {
@@ -359,7 +359,7 @@
           },
           {
             "result": {
-              "duration": 66832,
+              "duration": 83445,
               "status": "passed"
             },
             "match": {
@@ -368,7 +368,7 @@
           },
           {
             "result": {
-              "duration": 93640,
+              "duration": 58903,
               "status": "passed"
             },
             "match": {
@@ -377,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 3438432932,
+              "duration": 3030376784,
               "status": "passed"
             },
             "match": {
@@ -390,10 +390,10 @@
         "steps": [
           {
             "result": {
-              "duration": 459139,
+              "duration": 694372,
               "status": "passed"
             },
-            "line": 31,
+            "line": 8,
             "name": "User is on home page",
             "match": {
               "location": "HomepageSteps.launch_the_spicejet_application()"
@@ -402,10 +402,10 @@
           },
           {
             "result": {
-              "duration": 130831505,
+              "duration": 122441652,
               "status": "passed"
             },
-            "line": 32,
+            "line": 9,
             "name": "move to mouse on Login/SignUp button",
             "match": {
               "location": "HomepageSteps.move_to_mouse_on_Login_SignUp_button()"
@@ -414,10 +414,10 @@
           },
           {
             "result": {
-              "duration": 737506688,
+              "duration": 684144271,
               "status": "passed"
             },
-            "line": 33,
+            "line": 10,
             "name": "move to the mouse SpiceCash/SpiceClub Member button",
             "match": {
               "location": "HomepageSteps.move_to_the_mouse_SpiceCash_SpiceClub_Member_button()"
@@ -426,10 +426,10 @@
           },
           {
             "result": {
-              "duration": 717668950,
+              "duration": 685500165,
               "status": "passed"
             },
-            "line": 34,
+            "line": 11,
             "name": "move to the mouse Signup button",
             "match": {
               "location": "HomepageSteps.move_to_the_mouse_Signup_button()"
@@ -438,10 +438,10 @@
           },
           {
             "result": {
-              "duration": 4425376175,
+              "duration": 4552838524,
               "status": "passed"
             },
-            "line": 35,
+            "line": 12,
             "name": "click on Signup button",
             "match": {
               "location": "HomepageSteps.click_on_Signup_button()"
@@ -450,10 +450,10 @@
           },
           {
             "result": {
-              "duration": 76649,
+              "duration": 67965,
               "status": "passed"
             },
-            "line": 36,
+            "line": 13,
             "name": "user land on registration page",
             "match": {
               "location": "HomepageSteps.user_land_on_registration_page()"
@@ -462,10 +462,10 @@
           },
           {
             "result": {
-              "duration": 392766375,
+              "duration": 359820151,
               "status": "passed"
             },
-            "line": 37,
+            "line": 14,
             "name": "select title",
             "match": {
               "location": "RegistrationSteps.select_title()"
@@ -474,10 +474,10 @@
           },
           {
             "result": {
-              "duration": 266230610,
+              "duration": 213330353,
               "status": "passed"
             },
-            "line": 38,
+            "line": 15,
             "name": "enter firstname as \"poola\"",
             "match": {
               "arguments": [
@@ -495,10 +495,10 @@
           },
           {
             "result": {
-              "duration": 217211132,
+              "duration": 157838378,
               "status": "passed"
             },
-            "line": 39,
+            "line": 16,
             "name": "enter lastname as \"vali\"",
             "match": {
               "arguments": [
@@ -516,10 +516,10 @@
           },
           {
             "result": {
-              "duration": 289183394,
+              "duration": 244367149,
               "status": "passed"
             },
-            "line": 40,
+            "line": 17,
             "name": "enter mobile number as \"7358681941\"",
             "match": {
               "arguments": [
@@ -537,10 +537,10 @@
           },
           {
             "result": {
-              "duration": 321985760,
+              "duration": 221078696,
               "status": "passed"
             },
-            "line": 41,
+            "line": 18,
             "name": "enter password as \"Welcome@123\"",
             "match": {
               "arguments": [
@@ -558,10 +558,10 @@
           },
           {
             "result": {
-              "duration": 261699636,
+              "duration": 383409158,
               "status": "passed"
             },
-            "line": 42,
+            "line": 19,
             "name": "enter confirm password as \"Welcome@123\"",
             "match": {
               "arguments": [
@@ -579,10 +579,10 @@
           },
           {
             "result": {
-              "duration": 930699880,
+              "duration": 1379612956,
               "status": "passed"
             },
-            "line": 43,
+            "line": 20,
             "name": "select date of birth",
             "match": {
               "location": "RegistrationSteps.select_date_of_birth()"
@@ -591,10 +591,10 @@
           },
           {
             "result": {
-              "duration": 411979216,
+              "duration": 289084468,
               "status": "passed"
             },
-            "line": 44,
+            "line": 21,
             "name": "email address as \"test1@gmail.com\"",
             "match": {
               "arguments": [
@@ -612,10 +612,10 @@
           },
           {
             "result": {
-              "duration": 204933702,
+              "duration": 79316971,
               "status": "passed"
             },
-            "line": 45,
+            "line": 22,
             "name": "check on checkbox",
             "match": {
               "location": "RegistrationSteps.check_on_checkbox()"
@@ -624,10 +624,10 @@
           },
           {
             "result": {
-              "duration": 1869216825,
+              "duration": 2427839892,
               "status": "passed"
             },
-            "line": 46,
+            "line": 23,
             "name": "click on submit button",
             "match": {
               "location": "RegistrationSteps.click_on_submit_button()"
