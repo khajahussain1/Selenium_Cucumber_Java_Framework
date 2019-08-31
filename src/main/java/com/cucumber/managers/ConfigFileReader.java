@@ -120,19 +120,16 @@ public class ConfigFileReader {
 	public DriverType getBrowser() {
 
 		String browserName = System.getProperty("BROWSER");
+		
 
-		if (StringUtils.isEmpty(browserName)) {
+		//if (StringUtils.isEmpty(browserName)) {
 			
-			String browserNames = pro.getProperty("BROWSER");
+			if (browserName.equals("ie") || browserName.isEmpty()) {
 			
-			if (browserNames == null || browserNames.equals("chrome"))
-
-			{
-				return DriverType.CHROME;
-
-			}
+			return DriverType.INTERNETEXPLORER;
+			
 		}
-		return DriverType.String;
+			return DriverType.INTERNETEXPLORER;
 
 		/*if (browserName == null || browserName.equals("chrome"))
 

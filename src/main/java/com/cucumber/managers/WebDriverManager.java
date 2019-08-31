@@ -72,7 +72,7 @@ public class WebDriverManager {
 
 		if (System.getProperty("os.name").contains("Window")) {
 			
-			if(driverType.name().equals("String")) {
+			if(driverType.name().equals("ie")) {
 				
 				System.setProperty(IE_DRIVER_PROPERTY,
 						System.getProperty("user.dir") + FileReaderManager.getInstance().getConfigReader().getIEPath());
