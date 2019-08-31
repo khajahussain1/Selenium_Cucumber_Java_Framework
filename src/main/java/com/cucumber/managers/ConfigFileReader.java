@@ -119,20 +119,38 @@ public class ConfigFileReader {
 
 	public DriverType getBrowser() {
 
-		String browserName = pro.getProperty("BROWSER");		
-
-		if (browserName == null || browserName.equals("chrome"))
+		String browserName = System.getProperty("BROWSER");
+		
+		if(browserName.equals("chrome")) {
+			
+			return DriverType.CHROME;
+			
+		}else if(browserName.equalsIgnoreCase("firefox"))
+		{
+			return DriverType.FIREFOX;
+			
+		}else if(browserName.equals("ie"))
+		{
+			return DriverType.INTERNETEXPLORER;
+		}
+		
+		else if(StringUtils.isEmpty(browserName))
+		{
+			
+		String browserNames = pro.getProperty("BROWSER");
+		
+		if (browserNames == null || browserNames.equals("chrome"))
 
 		{
 
 			return DriverType.CHROME;
 
-		} else if (browserName == null || browserName.equalsIgnoreCase("firefox"))
+		} else if (browserNames == null || browserNames.equalsIgnoreCase("firefox"))
 
 		{
 			return DriverType.FIREFOX;
 
-		} else if (browserName == null || browserName.equals("ie")) {
+		} else if (browserNames == null || browserNames.equals("ie")) {
 
 			return DriverType.INTERNETEXPLORER;
 
@@ -141,6 +159,9 @@ public class ConfigFileReader {
 			throw new RuntimeException(
 					"Browser Name Key value in Configuration.properties is not matched : " + browserName);
 		}
+	}
+		return null; 
+		
 	}
 
 	public Environment getEnvironment() {
