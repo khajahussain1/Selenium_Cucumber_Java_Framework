@@ -72,16 +72,7 @@ public class WebDriverManager {
 
 		if (System.getProperty("os.name").contains("Window")) {
 			
-			if(driverType.name().equals("ie")) {
-				
-				System.setProperty(IE_DRIVER_PROPERTY,
-						System.getProperty("user.dir") + FileReaderManager.getInstance().getConfigReader().getIEPath());
-
-				driver = new InternetExplorerDriver();
-				
-			}
-
-			/*else if (driverType.name().equals("FIREFOX")) {
+			if (driverType.name().equals("FIREFOX")) {
 				
 				System.setProperty(GECKO_DRIVER_PROPERTY, System.getProperty("user.dir")
 						+ FileReaderManager.getInstance().getConfigReader().getGeckoPath());
@@ -103,7 +94,7 @@ public class WebDriverManager {
 				driver = new InternetExplorerDriver();
 
 			}
-*/
+
 			if (FileReaderManager.getInstance().getConfigReader().getBrowserWindowSize())
 
 				driver.manage().window().maximize();
