@@ -2,7 +2,7 @@ node('master') {
        
     stage('SCM Checkout stage') {
            
-                 git 'https://github.com/khajahussain1/Selenium_Cucumber_Framework'   
+                 git 'https://github.com/khajahussain1/Selenium_Cucumber_Java_Framework.git'   
  
                }
         
