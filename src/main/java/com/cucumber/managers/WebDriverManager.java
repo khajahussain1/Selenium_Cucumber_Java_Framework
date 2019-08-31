@@ -26,6 +26,7 @@ public class WebDriverManager {
 		environment = FileReaderManager.getInstance().getConfigReader().getEnvironment();
 	}
 
+	
 	/*public WebDriver getDriver() {
 
 		if (driver == null) {
