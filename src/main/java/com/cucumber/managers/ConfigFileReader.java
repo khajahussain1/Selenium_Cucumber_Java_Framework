@@ -128,7 +128,6 @@ public class ConfigFileReader {
 			if (browserNames == null || browserNames.equals("chrome"))
 
 			{
-
 				return DriverType.CHROME;
 
 			}
