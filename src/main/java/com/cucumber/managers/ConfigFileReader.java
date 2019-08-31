@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.lang3.StringUtils;
+
 import com.cucumber.enums.DriverType;
 import com.cucumber.enums.Environment;
 
@@ -14,12 +16,13 @@ public class ConfigFileReader {
 	private final String propertyFilePath = "configs//Configuation.properties";
 
 	public ConfigFileReader() {
+
 		try {
 
 			FileInputStream reader = new FileInputStream(propertyFilePath);
-			
+
 			pro = new Properties();
-			
+
 			try {
 				pro.load(reader);
 				reader.close();
@@ -30,6 +33,7 @@ public class ConfigFileReader {
 			e.printStackTrace();
 			throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
 		}
+
 	}
 
 	public String getChromePath() {
@@ -115,9 +119,25 @@ public class ConfigFileReader {
 
 	public DriverType getBrowser() {
 
-		String browserName = pro.getProperty("BROWSER");
+		String browserName = System.getProperty("BROWSER");
 
-		if (browserName == null || browserName.equals("chrome")) {
+		if (StringUtils.isEmpty(browserName)) {
+			
+			String browserNames = pro.getProperty("BROWSER");
+			
+			if (browserNames == null || browserNames.equals("chrome"))
+
+			{
+
+				return DriverType.CHROME;
+
+			}
+		}
+		return DriverType.String;
+
+		/*if (browserName == null || browserName.equals("chrome"))
+
+		{
 
 			return DriverType.CHROME;
 
@@ -134,7 +154,7 @@ public class ConfigFileReader {
 
 			throw new RuntimeException(
 					"Browser Name Key value in Configuration.properties is not matched : " + browserName);
-		}
+		}*/
 	}
 
 	public Environment getEnvironment() {
@@ -144,7 +164,7 @@ public class ConfigFileReader {
 		if (environmentName == null || environmentName.equalsIgnoreCase("local")) {
 
 			return Environment.LOCAL;
-			
+
 		} else if (environmentName.equals("remote")) {
 
 			return Environment.REMOTE;
@@ -190,19 +210,17 @@ public class ConfigFileReader {
 	}
 
 	public String getTestDataResourcePath() {
-		
+
 		String testDataResourcePath = pro.getProperty("testDataResourcePath");
-		
+
 		if (testDataResourcePath != null) {
-			
+
 			return testDataResourcePath;
-		}
-		else {
-			
-		
+		} else {
+
 			throw new RuntimeException(
 					"Test Data Resource Path not specified in the Configuration.properties file for the Key:testDataResourcePath");
-	}
+		}
 	}
 
 }
