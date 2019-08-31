@@ -119,7 +119,8 @@ public class ConfigFileReader {
 
 	public DriverType getBrowser() {
 
-		String browserName = System.getProperty("BROWSER");
+		//String browserName = System.getProperty("BROWSER");
+		String browserName = "chrome";
 		
 		if(browserName.equals("chrome")) {
 			
