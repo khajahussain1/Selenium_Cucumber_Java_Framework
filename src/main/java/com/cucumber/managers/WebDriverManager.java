@@ -71,8 +71,17 @@ public class WebDriverManager {
 	private WebDriver createLocalDriver() {
 
 		if (System.getProperty("os.name").contains("Window")) {
+			
+			if(driverType.name().equals("String")) {
+				
+				System.setProperty(IE_DRIVER_PROPERTY,
+						System.getProperty("user.dir") + FileReaderManager.getInstance().getConfigReader().getIEPath());
 
-			if (driverType.name().equals("FIREFOX")) {
+				driver = new InternetExplorerDriver();
+				
+			}
+
+			else if (driverType.name().equals("FIREFOX")) {
 				
 				System.setProperty(GECKO_DRIVER_PROPERTY, System.getProperty("user.dir")
 						+ FileReaderManager.getInstance().getConfigReader().getGeckoPath());
