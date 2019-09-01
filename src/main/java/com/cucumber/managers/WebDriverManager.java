@@ -139,7 +139,6 @@ public class WebDriverManager {
 					FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(), TimeUnit.SECONDS);
 
 			driver.get(FileReaderManager.getInstance().getConfigReader().getApplicationUrl());
-
 		}
 
 		return driver;
