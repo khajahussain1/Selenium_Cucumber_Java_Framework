@@ -3,8 +3,8 @@
 
 <suite name="Spicejet">
 
-	<!-- <listeners> <listener class-name="com.cucumber.utility.Listener" /> 
-		</listeners> -->
+	 <listeners> <listener class-name="com.cucumber.utility.Listener" /> 
+		</listeners>
 
 	<test name="LoginRunner">
 		<classes>
