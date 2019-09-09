@@ -43,7 +43,7 @@ public class RegistrationPageObjects {
 	@FindBy(xpath = "//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB']")
 	WebElement dob_txtbox;
 
-	@FindBy(xpath = "//span[text()='1994']")
+	@FindBy(xpath = "//span[text()='1996']")
 	WebElement year_button;
 
 	@FindBy(xpath = "//span[text()='Jun']")

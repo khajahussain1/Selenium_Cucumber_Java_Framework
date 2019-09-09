@@ -43,62 +43,62 @@ public class Listener implements ITestListener, ISuiteListener, IInvokedMethodLi
 
 	// This belongs to ISuiteListener and will execute before the Suite start
 
-	public void onStart(ISuite arg0) {
+	public void onStart(ISuite isuitestart) {
 
-		Reporter.log("About to begin executing Suite " + arg0.getName(), true);
+		Reporter.log("About to begin executing Suite " + isuitestart.getName(), true);
 
 	}
 
 	// This belongs to ISuiteListener and will execute, once the Suite is finished
 
-	public void onFinish(ISuite arg0) {
+	public void onFinish(ISuite isuiteend) {
 
-		Reporter.log("About to end executing Suite " + arg0.getName(), true);
+		Reporter.log("About to end executing Suite " + isuiteend.getName(), true);
 
 	}
 
 	// This belongs to ITestListener and will execute before starting of Test
 	// set/batch
 
-	public void onStart(ITestContext arg0) {
+	public void onStart(ITestContext iteststart) {
 
-		Reporter.log("About to begin executing Test " + arg0.getName(), true);
+		Reporter.log("About to begin executing Test " + iteststart.getName(), true);
 
 	}
 
 	// This belongs to ITestListener and will execute, once the Test set/batch is
 	// finished
 
-	public void onFinish(ITestContext arg0) {
+	public void onFinish(ITestContext itestend) {
 
-		Reporter.log("Completed executing test " + arg0.getName(), true);
+		Reporter.log("Completed executing test " + itestend.getName(), true);
 
 	}
 
 	// This belongs to ITestListener and will execute only when the test is pass
 
-	public void onTestSuccess(ITestResult arg0) {
+	public void onTestSuccess(ITestResult itestpass) {
 
 		// This is calling the printTestResults method
 
-		printTestResults(arg0);
+		printTestResults(itestpass);
 
 	}
 
 	// This belongs to ITestListener and will execute only on the event of fail test
 
-	public void onTestFailure(ITestResult arg0) {
+	public void onTestFailure(ITestResult itestfail) {
 
 		// This is calling the printTestResults method
 
-		printTestResults(arg0);
+		printTestResults(itestfail);
 
 	}
 
 	// This belongs to ITestListener and will execute before the main test start
 	// (@Test)
 
-	public void onTestStart(ITestResult arg0) {
+	public void onTestStart(ITestResult mainiteststart) {
 
 		System.out.println("The execution of the main test starts now");
 
@@ -107,15 +107,17 @@ public class Listener implements ITestListener, ISuiteListener, IInvokedMethodLi
 	// This belongs to ITestListener and will execute only if any of the main
 	// test(@Test) get skipped
 
-	public void onTestSkipped(ITestResult arg0) {
+	public void onTestSkipped(ITestResult mainitestskiped) {
 
-		printTestResults(arg0);
+		printTestResults(mainitestskiped);
 
 	}
 
 	// This is just a piece of shit, ignore this
 
-	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
+	public void onTestFailedButWithinSuccessPercentage(ITestResult successpercentage) {
+		
+		System.out.println(successpercentage);
 
 	}
 
@@ -170,9 +172,9 @@ public class Listener implements ITestListener, ISuiteListener, IInvokedMethodLi
 	// This belongs to IInvokedMethodListener and will execute before every method
 	// including @Before @After @Test
 
-	public void beforeInvocation(IInvokedMethod arg0, ITestResult arg1) {
+	public void beforeInvocation(IInvokedMethod methodname, ITestResult itestresults) {
 
-		String textMsg = "About to begin executing following method : " + returnMethodName(arg0.getTestMethod());
+		String textMsg = "About to begin executing following method : " + returnMethodName(methodname.getTestMethod());
 
 		Reporter.log(textMsg, true);
 
@@ -181,9 +183,9 @@ public class Listener implements ITestListener, ISuiteListener, IInvokedMethodLi
 	// This belongs to IInvokedMethodListener and will execute after every method
 	// including @Before @After @Test
 
-	public void afterInvocation(IInvokedMethod arg0, ITestResult arg1) {
+	public void afterInvocation(IInvokedMethod arg1, ITestResult arg2) {
 
-		String textMsg = "Completed executing following method : " + returnMethodName(arg0.getTestMethod());
+		String textMsg = "Completed executing following method : " + returnMethodName(arg1.getTestMethod());
 
 		Reporter.log(textMsg, true);
 
