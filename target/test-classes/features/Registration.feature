@@ -25,7 +25,7 @@ Feature: Spicejet registration
     Examples: 
       | firstname | lastname | phnumber   | password    | cpassword   | address         |
       | khaja     | hussain  | 9290543618 | Welcome@123 | Welcome@123 | test@gmail.com  |
-      | poola     | vali     | 7358681941 | Welcome@123 | Welcome@123 | test1@gmail.com |
+     # | poola     | vali     | 7358681941 | Welcome@123 | Welcome@123 | test1@gmail.com |
       
       
       

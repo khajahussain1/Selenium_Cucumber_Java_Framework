@@ -12,6 +12,8 @@ public class RegistrationSteps {
 	RegistrationPageObjects registration;
 
 	public RegistrationSteps(TestContext reader) {
+		
+		System.out.println("started registration page stepdefination");
 		managerReder = reader;
 		registration = managerReder.getPageObjectManager().getRegistration();
 	}

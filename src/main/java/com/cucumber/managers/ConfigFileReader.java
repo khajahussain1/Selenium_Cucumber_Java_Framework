@@ -17,6 +17,7 @@ public class ConfigFileReader {
 
 		try {
 
+			System.out.println("Started ConfigFileReader");
 			FileInputStream reader = new FileInputStream(propertyFilePath);
 
 			pro = new Properties();

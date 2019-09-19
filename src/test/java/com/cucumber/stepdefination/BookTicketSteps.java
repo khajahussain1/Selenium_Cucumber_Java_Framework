@@ -1,5 +1,7 @@
 package com.cucumber.stepdefination;
 
+import org.apache.log4j.xml.DOMConfigurator;
+
 import com.cucumber.PageObjects.BookTicketPageObjects;
 import com.cucumber.utility.TestContext;
 
@@ -11,7 +13,7 @@ public class BookTicketSteps {
 	BookTicketPageObjects bookTicket;
 
 	public BookTicketSteps(TestContext context) {
-		
+		System.out.println("BookTicketSteps");
 		testContext = context;
 		bookTicket = testContext.getPageObjectManager().getbookTicket();
 

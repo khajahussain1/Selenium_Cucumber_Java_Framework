@@ -19,9 +19,7 @@ public class WebDriverManager {
 	private static final String GECKO_DRIVER_PROPERTY = "webdriver.gecko.driver";
 
 	public WebDriverManager() {
-
-		System.gc();
-		//DOMConfigurator.configure("log4j.xml");
+        System.out.println("started WebDriverManager");		
 		driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
 		environment = FileReaderManager.getInstance().getConfigReader().getEnvironment();
 	}

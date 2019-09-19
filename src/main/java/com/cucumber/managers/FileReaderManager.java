@@ -15,6 +15,7 @@ public class FileReaderManager {
 	}
 
 	public static FileReaderManager getInstance() {
+		System.out.println("staredted FileReaderManager object");
 		
 		if(fileReaderManager ==null)
 		{
@@ -25,6 +26,7 @@ public class FileReaderManager {
 	}
 
 	public ConfigFileReader getConfigReader() {
+		System.out.println("staredted ConfigFileReader object");
 
 		if (configFileReader == null)
 		{

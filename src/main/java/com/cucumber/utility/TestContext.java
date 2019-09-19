@@ -5,12 +5,14 @@ import com.cucumber.managers.WebDriverManager;
 
 public class TestContext {
 
-	private WebDriverManager webDriverManager;
-	private PageObjectManager pageObjectManager;
+	
+	private WebDriverManager webDriverManager = null;
+	private PageObjectManager pageObjectManager = null;
 	//public ScenarioContext scenarioContext;
 
-	public TestContext() {
-
+	public TestContext() {		
+        System.out.println("started TestContext");        
+        System.gc();
 		webDriverManager = new WebDriverManager();
 		pageObjectManager = new PageObjectManager(webDriverManager.getDriver());
 		//scenarioContext = new ScenarioContext();
@@ -18,11 +20,12 @@ public class TestContext {
 
 	public WebDriverManager getWebDriverManager() {
 
+		System.out.println("started WebDriverManager object");
 		return webDriverManager;
 	}
 
 	public PageObjectManager getPageObjectManager() {
-
+		System.out.println("started PageObjectManager object");
 		return pageObjectManager;
 	}
 

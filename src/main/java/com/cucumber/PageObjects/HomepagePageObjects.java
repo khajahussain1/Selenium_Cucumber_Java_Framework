@@ -16,6 +16,7 @@ public class HomepagePageObjects {
 	TestBase testBase;
 
 	public HomepagePageObjects(WebDriver driver) {
+		System.out.println("started HomepagePageObjects page");
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		testBase = new TestBase(driver);

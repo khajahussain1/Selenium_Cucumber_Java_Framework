@@ -24,7 +24,7 @@ public class PageObjectManager {
 	private Log log;
 
 	public PageObjectManager(WebDriver driver) {
-		
+		System.out.println("started pageobject manager");
 		this.driver = driver; 
 		DOMConfigurator.configure("log4j.xml");
 	}

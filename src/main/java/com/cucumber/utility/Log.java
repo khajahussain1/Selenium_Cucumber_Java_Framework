@@ -10,12 +10,14 @@ public class Log {
      
      
 public Log(WebDriver driver) {
+	 System.gc();
 	this.driver = driver;
 	
 	}
 
 // This is to print log for the beginning of the test case, as we usually run so many test cases as a test suite
 public static void startTestCase(String sTestCaseName){
+	System.out.println("started Log class");
     //Log.info("****************************************************************************************");
     Log.info("****************************************************************************************");
     Log.info("$$$$$$$$$$$$$$$$$$$$$                 "+sTestCaseName+ "       $$$$$$$$$$$$$$$$$$$$$$$$$");

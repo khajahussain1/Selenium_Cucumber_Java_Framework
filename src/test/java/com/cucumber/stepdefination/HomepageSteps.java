@@ -13,7 +13,7 @@ public class HomepageSteps {
 	HomepagePageObjects homepage;
 
 	public HomepageSteps(TestContext context) {
-		
+		System.out.println("Started home page stepdefination ");
 		testContext = context;
 		homepage = testContext.getPageObjectManager().getHomepage();
 	}

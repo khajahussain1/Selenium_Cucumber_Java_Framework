@@ -16,6 +16,7 @@ public class RegistrationPageObjects {
 	TestBase testBase;
 
 	public RegistrationPageObjects(WebDriver driver) {
+		System.out.println("started RegistrationPageObjects page");
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		testBase = new TestBase(driver);
