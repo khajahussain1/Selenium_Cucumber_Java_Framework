@@ -4,6 +4,7 @@ public class FileReaderManager {
 
 	private static FileReaderManager fileReaderManager;
 	private static ConfigFileReader configFileReader;
+	
 	//private static FileReaderManager fileReaderManager = new FileReaderManager();
 	public String s;
 
