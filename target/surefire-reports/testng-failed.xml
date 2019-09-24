@@ -4,16 +4,6 @@
   <listeners>
     <listener class-name="com.cucumber.utility.Listener"/>
   </listeners>
-  <test name="LoginRunner">
-    <classes>
-      <class name="com.cucumber.TestRunner.LoginRunner"/>
-    </classes>
-  </test> <!-- LoginRunner -->
-  <test name="BookTick">
-    <classes>
-      <class name="com.cucumber.TestRunner.BookTicketRunner"/>
-    </classes>
-  </test> <!-- BookTick -->
   <test name="Registration">
     <classes>
       <class name="com.cucumber.TestRunner.RegistrationRunner"/>

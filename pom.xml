@@ -53,7 +53,7 @@
 			<plugin>
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
-				<!-- <version>4.8.0</version> -->
+				<!-- <version>4.9.0</version> -->
 				<version>3.15.0</version>
 				<executions>
 					<execution>
@@ -66,11 +66,11 @@
 							<projectName>Selenium_Cucumber_Java_Framework</projectName>
 							<!-- optional, per documentation set this to "true" to bypass generation 
 								of Cucumber Reports entirely, defaults to false if not specified -->
-							<!-- <skip>true</skip> -->
-
-
+							<skip>false</skip>
 							<!-- output directory for the generated report -->
 							<outputDirectory>${project.build.directory}/cucumber-JVM-reports/</outputDirectory>
+							<cucumberOutput>${project.build.directory}/cucumber-reports</cucumberOutput>
+							<!--  <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput> -->
 							<!-- <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory> -->
 
 							<!-- optional, defaults to outputDirectory if not specified -->
@@ -78,11 +78,12 @@
 
 							<!-- <inputDirectory>${project.build.directory}/cucumber.json</inputDirectory> -->
 							<!-- <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput> -->
-							<!-- <skippedFails>false</skippedFails> <enableFlashCharts>true</enableFlashCharts> -->
-							<!-- <buildNumber>12</buildNumber> -->
+							<skippedFails>false</skippedFails>
+							 <enableFlashCharts>true</enableFlashCharts>
+							<buildNumber>12</buildNumber>
 
 							<!-- optional, set true to fail build on test failures -->
-							<!-- <checkBuildResult>true</checkBuildResult> -->
+							<checkBuildResult>true</checkBuildResult>
 
 						</configuration>
 					</execution>

@@ -1,31 +1,34 @@
 package com.cucumber.TestRunner;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.log4j.xml.DOMConfigurator;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-import com.cucumber.TestBase.TestBase;
 import com.cucumber.listener.Reporter;
 import com.cucumber.utility.Log;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@CucumberOptions(features = {"src/test/resources/features/Registration.feature"}, glue = {
-		"com/cucumber/stepdefination" }, plugin = { "json:target/cucumber.json", "html:target/cucumber-pretty",
-				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html",
-				"pretty" }, monochrome = true, dryRun = false, strict = true)
+@CucumberOptions(features = { "src/test/resources/features" }, glue = { "com/cucumber/stepdefination" }, plugin = {
+		"pretty", "html:target/cucumber-pretty", "json:target/cucumber-reports/cucumber.json",
+		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html", }, monochrome = true, dryRun = false, strict = true)
 
 public class RegistrationRunner extends AbstractTestNGCucumberTests {
 
 	String testcasename;
-	
+
 	@BeforeClass
 	public void beforeclass() {
 
+		SimpleDateFormat formater = new SimpleDateFormat("yyyy-MM-dd hh-mm-ss");
+		System.setProperty("Currentdata", formater.format(new Date()));
+		//SeleniumUntil.cleanFolder("Logs"); //delete all log files
+		
 		testcasename = this.getClass().getSimpleName();
 
 		System.out.println("***************** " + testcasename + " Test satrting *****************");
