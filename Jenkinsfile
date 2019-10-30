@@ -4,8 +4,7 @@ node('master') {
            
                  git 'https://github.com/khajahussain1/Selenium_Cucumber_Java_Framework.git'   
  
-               }
-        
+               }        
         
         stage('Clean & Compile Stage') {
             
