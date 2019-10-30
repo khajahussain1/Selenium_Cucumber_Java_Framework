@@ -4,9 +4,97 @@
   <listeners>
     <listener class-name="com.cucumber.utility.Listener"/>
   </listeners>
+  <test name="LoginRunner">
+    <classes>
+      <class name="com.cucumber.TestRunner.LoginRunner"/>
+    </classes>
+  </test> <!-- LoginRunner -->
+  <test name="BookTick">
+    <classes>
+      <class name="com.cucumber.TestRunner.BookTicketRunner"/>
+    </classes>
+  </test> <!-- BookTick -->
   <test name="Registration">
     <classes>
       <class name="com.cucumber.TestRunner.RegistrationRunner"/>
     </classes>
   </test> <!-- Registration -->
+  <test name="LoginRunner(failed)">
+    <classes>
+      <class name="com.cucumber.TestRunner.BookTicketRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.BookTicketRunner -->
+      <class name="com.cucumber.TestRunner.RegistrationRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.RegistrationRunner -->
+      <class name="com.cucumber.TestRunner.LoginRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.LoginRunner -->
+    </classes>
+  </test> <!-- LoginRunner(failed) -->
+  <test name="BookTick(failed)">
+    <classes>
+      <class name="com.cucumber.TestRunner.BookTicketRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.BookTicketRunner -->
+      <class name="com.cucumber.TestRunner.RegistrationRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.RegistrationRunner -->
+      <class name="com.cucumber.TestRunner.LoginRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.LoginRunner -->
+    </classes>
+  </test> <!-- BookTick(failed) -->
+  <test name="Registration(failed)">
+    <classes>
+      <class name="com.cucumber.TestRunner.BookTicketRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.BookTicketRunner -->
+      <class name="com.cucumber.TestRunner.RegistrationRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.RegistrationRunner -->
+      <class name="com.cucumber.TestRunner.LoginRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.LoginRunner -->
+    </classes>
+  </test> <!-- Registration(failed) -->
 </suite> <!-- Failed suite [Spicejet] -->

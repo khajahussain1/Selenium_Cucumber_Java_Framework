@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33363" started-at="2019-09-23T16:15:15Z" finished-at="2019-09-23T16:15:49Z">
+  <suite name="Default suite" duration-ms="34913" started-at="2019-10-24T12:26:06Z" finished-at="2019-10-24T12:26:41Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@ff5b51f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="33363" started-at="2019-09-23T16:15:15Z" finished-at="2019-09-23T16:15:49Z">
-      <class name="com.cucumber.TestRunner.RegistrationRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@ff5b51f]" name="setUpClass" is-config="true" duration-ms="397" started-at="2019-09-23T21:45:15Z" finished-at="2019-09-23T21:45:16Z">
+    <test name="Default test" duration-ms="34913" started-at="2019-10-24T12:26:06Z" finished-at="2019-10-24T12:26:41Z">
+      <class name="com.cucumber.TestRunner.BookTicketRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="setUpClass" is-config="true" duration-ms="512" started-at="2019-10-24T17:56:06Z" finished-at="2019-10-24T17:56:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@ff5b51f]" name="beforeclass" is-config="true" duration-ms="84" started-at="2019-09-23T21:45:16Z" finished-at="2019-09-23T21:45:16Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="beforeclass" is-config="true" duration-ms="273" started-at="2019-10-24T17:56:06Z" finished-at="2019-10-24T17:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@ff5b51f]" name="feature" duration-ms="21245" started-at="2019-09-23T21:45:16Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-23T21:45:37Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="feature" duration-ms="33144" started-at="2019-10-24T17:56:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-24T17:56:40Z">
           <params>
             <param index="0">
               <value>
@@ -29,69 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@ff5b51f]" name="feature" duration-ms="10437" started-at="2019-09-23T21:45:37Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-23T21:45:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Login with Valid Credentials]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@ff5b51f]" name="feature" duration-ms="16" started-at="2019-09-23T21:45:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-23T21:45:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Spicejet registration]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@ff5b51f]" name="testDownClass" is-config="true" duration-ms="0" started-at="2019-09-23T21:45:48Z" finished-at="2019-09-23T21:45:48Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.cucumber.listener.Reporter.addScreenCaptureFromPath(Reporter.java:94)
-	at com.cucumber.TestRunner.RegistrationRunner.testDownClass(RegistrationRunner.java:46)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:232)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="testDownClass" is-config="true" duration-ms="4" started-at="2019-10-24T17:56:40Z" finished-at="2019-10-24T17:56:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@ff5b51f]" name="tearDownClass" is-config="true" duration-ms="1034" started-at="2019-09-23T21:45:48Z" finished-at="2019-09-23T21:45:49Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="tearDownClass" is-config="true" duration-ms="824" started-at="2019-10-24T17:56:40Z" finished-at="2019-10-24T17:56:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.cucumber.TestRunner.RegistrationRunner -->
+      </class> <!-- com.cucumber.TestRunner.BookTicketRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

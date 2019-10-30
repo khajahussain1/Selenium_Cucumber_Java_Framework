@@ -1,6 +1,7 @@
 @tag
 Feature: Login with Valid Credentials
 
+@sanity
   Scenario: Successful Login with Valid Credentials
     Given User is on home page
     Then move to mouse on Login/SignUp button

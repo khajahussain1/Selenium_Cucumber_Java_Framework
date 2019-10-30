@@ -1,4 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 109.768 s - in TestSuite
+Tests run: 15, Failures: 9, Errors: 0, Skipped: 6, Time elapsed: 1.874 s <<< FAILURE! - in TestSuite
+setUpClass(com.cucumber.TestRunner.LoginRunner)  Time elapsed: 1.175 s  <<< FAILURE!
+cucumber.runtime.CucumberException: Unknown option: --tags "@sanity
+
+testDownClass(com.cucumber.TestRunner.LoginRunner)  Time elapsed: 1.209 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.TestRunner.LoginRunner.testDownClass(LoginRunner.java:46)
+
+tearDownClass(com.cucumber.TestRunner.LoginRunner)  Time elapsed: 1.214 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setUpClass(com.cucumber.TestRunner.BookTicketRunner)  Time elapsed: 1.325 s  <<< FAILURE!
+cucumber.runtime.CucumberException: Unknown option: --tags "@sanity
+
+testDownClass(com.cucumber.TestRunner.BookTicketRunner)  Time elapsed: 1.337 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.TestRunner.BookTicketRunner.testDownClass(BookTicketRunner.java:47)
+
+tearDownClass(com.cucumber.TestRunner.BookTicketRunner)  Time elapsed: 1.345 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setUpClass(com.cucumber.TestRunner.RegistrationRunner)  Time elapsed: 1.376 s  <<< FAILURE!
+cucumber.runtime.CucumberException: Unknown option: --tags "@sanity
+
+testDownClass(com.cucumber.TestRunner.RegistrationRunner)  Time elapsed: 1.391 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.TestRunner.RegistrationRunner.testDownClass(RegistrationRunner.java:57)
+
+tearDownClass(com.cucumber.TestRunner.RegistrationRunner)  Time elapsed: 1.406 s  <<< FAILURE!
+java.lang.NullPointerException
+

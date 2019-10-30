@@ -4,6 +4,7 @@ Feature: Spicejet registration
   I want to register to application with my credentails
   In order to use the application features.
 
+@sanity
   Scenario Outline: User land on Spicejet Homepage
     Given User is on home page
     Then move to mouse on Login/SignUp button

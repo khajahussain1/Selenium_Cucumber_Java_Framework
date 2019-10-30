@@ -16,10 +16,18 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = { "src/test/resources/features" }, glue = { "com/cucumber/stepdefination" }, plugin = {
 		"pretty", "html:target/cucumber-pretty", "json:target/cucumber-reports/cucumber.json",
-		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html", }, monochrome = true, dryRun = false, strict = true)
+		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html", }, tags = {"@sanity"},
+		monochrome = true, dryRun = false, strict = true)
 
 public class RegistrationRunner extends AbstractTestNGCucumberTests {
 
+	
+	/*
+
+run cucumber tags through cmd
+
+mvn clean install test -Dcucumber.options="--tags @sanity"
+*/
 	String testcasename;
 
 	@BeforeClass

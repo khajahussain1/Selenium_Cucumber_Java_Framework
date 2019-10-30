@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Spicejet">
-              <span class="suite-name border-passed">Spicejet</span>
+              <span class="suite-name border-skipped">Spicejet</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Spicejet">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,31 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods,  3 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Spicejet" class="hide-methods passed suite-Spicejet"> (hide)</a> <!-- hide-methods passed suite-Spicejet -->
-                      <a href="#" panel-name="suite-Spicejet" class="show-methods passed suite-Spicejet"> (show)</a> <!-- show-methods passed suite-Spicejet -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Spicejet" class="hide-methods skipped suite-Spicejet"> (hide)</a> <!-- hide-methods skipped suite-Spicejet -->
+                      <a href="#" panel-name="suite-Spicejet" class="show-methods skipped suite-Spicejet"> (show)</a> <!-- show-methods skipped suite-Spicejet -->
                     </span>
-                    <div class="method-list-content passed suite-Spicejet">
+                    <div class="method-list-content skipped suite-Spicejet">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Spicejet" title="com.cucumber.TestRunner.RegistrationRunner" hash-for-method="feature(Book your ticket)">feature(Book your ticket)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Spicejet" title="com.cucumber.TestRunner.LoginRunner" hash-for-method="feature">feature</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Spicejet" title="com.cucumber.TestRunner.RegistrationRunner" hash-for-method="feature(Login with Valid Credentials)">feature(Login with Valid Credentials)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Spicejet" title="com.cucumber.TestRunner.BookTicketRunner" hash-for-method="feature">feature</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Spicejet" title="com.cucumber.TestRunner.RegistrationRunner" hash-for-method="feature(Spicejet registration)">feature(Spicejet registration)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Spicejet" title="com.cucumber.TestRunner.RegistrationRunner" hash-for-method="feature">feature</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Spicejet -->
+                    </div> <!-- method-list-content skipped suite-Spicejet -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -127,44 +127,75 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Spicejet" class="panel Spicejet">
-          <div class="suite-Spicejet-class-passed">
+          <div class="suite-Spicejet-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.cucumber.TestRunner.RegistrationRunner</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.cucumber.TestRunner.BookTicketRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="feature(Book your ticket)">
-                  </a> <!-- feature(Book your ticket) -->
+                  <a name="feature">
+                  </a> <!-- feature -->
                   <span class="method-name">feature</span>
-                  <span class="parameters">(Book your ticket)</span>
-                  <em>
-(Runs Cucumber Feature)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="feature(Login with Valid Credentials)">
-                  </a> <!-- feature(Login with Valid Credentials) -->
-                  <span class="method-name">feature</span>
-                  <span class="parameters">(Login with Valid Credentials)</span>
-                  <em>
-(Runs Cucumber Feature)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="feature(Spicejet registration)">
-                  </a> <!-- feature(Spicejet registration) -->
-                  <span class="method-name">feature</span>
-                  <span class="parameters">(Spicejet registration)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at cucumber.api.testng.AbstractTestNGCucumberTests.features(AbstractTestNGCucumberTests.java:29)
+	... 24 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Feature)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Spicejet-class-passed -->
+          </div> <!-- suite-Spicejet-class-skipped -->
+          <div class="suite-Spicejet-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.cucumber.TestRunner.RegistrationRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature">
+                  </a> <!-- feature -->
+                  <span class="method-name">feature</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at cucumber.api.testng.AbstractTestNGCucumberTests.features(AbstractTestNGCucumberTests.java:29)
+	... 24 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Spicejet-class-skipped -->
+          <div class="suite-Spicejet-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.cucumber.TestRunner.LoginRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature">
+                  </a> <!-- feature -->
+                  <span class="method-name">feature</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at cucumber.api.testng.AbstractTestNGCucumberTests.features(AbstractTestNGCucumberTests.java:29)
+	... 24 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Spicejet-class-skipped -->
         </div> <!-- panel Spicejet -->
         <div panel-name="test-xml-Spicejet" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -178,6 +209,16 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.cucumber.utility.Listener&quot;/&gt;
   &lt;/listeners&gt;
+  &lt;test name=&quot;LoginRunner&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cucumber.TestRunner.LoginRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginRunner --&gt;
+  &lt;test name=&quot;BookTick&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cucumber.TestRunner.BookTicketRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BookTick --&gt;
   &lt;test name=&quot;Registration&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.cucumber.TestRunner.RegistrationRunner&quot;/&gt;
@@ -193,6 +234,12 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
+              <li>
+                <span class="test-name">LoginRunner (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BookTick (1 class)</span>
+              </li>
               <li>
                 <span class="test-name">Registration (1 class)</span>
               </li>
@@ -231,21 +278,21 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
-data.setCell(0, 2, 'com.cucumber.TestRunner.RegistrationRunner')
-data.setCell(0, 3, 50143);
+data.setCell(0, 2, 'com.cucumber.TestRunner.LoginRunner')
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'feature')
-data.setCell(1, 2, 'com.cucumber.TestRunner.RegistrationRunner')
-data.setCell(1, 3, 34121);
+data.setCell(1, 2, 'com.cucumber.TestRunner.BookTicketRunner')
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'feature')
 data.setCell(2, 2, 'com.cucumber.TestRunner.RegistrationRunner')
-data.setCell(2, 3, 21106);
+data.setCell(2, 3, 0);
 window.suiteTableData['Spicejet']= { tableData: data, tableDiv: 'times-div-Spicejet'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Spicejet">
               </div> <!-- times-div-Spicejet -->
             </div> <!-- times-div -->
@@ -256,33 +303,6 @@ return data;
             <span class="header-content">Reporter output for Spicejet</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">feature(Book your ticket)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Completed executing following method : AbstractTestNGCucumberTests.feature</span>
-                <span class="reporter-method-output">Test Method resides in com.cucumber.TestRunner.RegistrationRunner</span>
-                <span class="reporter-method-output">Test Method had the following parameters : nullBook your ticket,</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">feature(Login with Valid Credentials)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Completed executing following method : AbstractTestNGCucumberTests.feature</span>
-                <span class="reporter-method-output">Test Method resides in com.cucumber.TestRunner.RegistrationRunner</span>
-                <span class="reporter-method-output">Test Method had the following parameters : nullLogin with Valid Credentials,</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">feature(Spicejet registration)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Completed executing following method : AbstractTestNGCucumberTests.feature</span>
-                <span class="reporter-method-output">Test Method resides in com.cucumber.TestRunner.RegistrationRunner</span>
-                <span class="reporter-method-output">Test Method had the following parameters : nullSpicejet registration,</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Spicejet" class="panel">
@@ -298,34 +318,66 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.cucumber.TestRunner.RegistrationRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.cucumber.TestRunner.LoginRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeclass</span>
-                <span class="method-start">829 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">feature(Book your ticket)</span>
-                <span class="method-start">1188 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">feature(Login with Valid Credentials)</span>
-                <span class="method-start">22300 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">feature(Spicejet registration)</span>
-                <span class="method-start">72444 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testDownClass</span>
-                <span class="method-start">106565 ms</span>
+                <span class="method-start">171 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">106572 ms</span>
+                <span class="method-start">200 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cucumber.TestRunner.BookTicketRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">305 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDownClass</span>
+                <span class="method-start">309 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cucumber.TestRunner.RegistrationRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">357 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDownClass</span>
+                <span class="method-start">365 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">368 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
