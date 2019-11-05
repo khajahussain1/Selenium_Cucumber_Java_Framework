@@ -41,11 +41,11 @@ public class Hooks {
 		System.out.println("-----------------End of Scenario-----------------");
 	}
 
-	@After(order = 1)
+	/*@After(order = 1)
 	public void afterScenario() {
 
 		System.out.println("Log out the user and close the browser");
-	}
+	}*/
 
 	@After(order = 1)
 	public void afterScenario(Scenario scenario) throws InterruptedException {

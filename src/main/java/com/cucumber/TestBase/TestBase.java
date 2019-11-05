@@ -12,7 +12,7 @@ import com.cucumber.managers.FileReaderManager;
 
 public class TestBase {
 	WebDriver driver;
-	LoginPageObjects login;
+	//LoginPageObjects login;
 
 	public TestBase(WebDriver driver) {
 		this.driver = driver;
