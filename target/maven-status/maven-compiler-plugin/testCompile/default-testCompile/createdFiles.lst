@@ -1,9 +1,9 @@
-com\cucumber\stepdefination\BookTicketSteps.class
 com\cucumber\TestRunner\BookTicketRunner.class
-com\cucumber\stepdefination\Hooks.class
 com\cucumber\stepdefination\HomepageSteps.class
 com\cucumber\TestRunner\LoginRunner.class
+com\cucumber\stepdefination\RegistrationSteps.class
+com\cucumber\stepdefination\BookTicketSteps.class
+com\cucumber\stepdefination\Hooks.class
 com\cucumber\stepdefination\Credentials.class
 com\cucumber\stepdefination\LoginSteps.class
-com\cucumber\stepdefination\RegistrationSteps.class
 com\cucumber\TestRunner\RegistrationRunner.class

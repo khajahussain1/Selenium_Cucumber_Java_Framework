@@ -167,7 +167,7 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
     </line>
   </reporter-output>
-  <suite name="Spicejet" duration-ms="234736" started-at="2019-10-30T11:40:06Z" finished-at="2019-10-30T11:44:01Z">
+  <suite name="Spicejet" duration-ms="193744" started-at="2019-11-06T05:08:08Z" finished-at="2019-11-06T05:11:22Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
@@ -175,23 +175,23 @@
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="LoginRunner" duration-ms="64184" started-at="2019-10-30T11:40:06Z" finished-at="2019-10-30T11:41:10Z">
+    <test name="LoginRunner" duration-ms="71783" started-at="2019-11-06T05:08:08Z" finished-at="2019-11-06T05:09:20Z">
       <class name="com.cucumber.TestRunner.LoginRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="setUpClass" is-config="true" duration-ms="758" started-at="2019-10-30T17:10:06Z" finished-at="2019-10-30T17:10:07Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="setUpClass" is-config="true" duration-ms="721" started-at="2019-11-06T10:38:08Z" finished-at="2019-11-06T10:38:09Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="beforeclass" is-config="true" duration-ms="274" started-at="2019-10-30T17:10:07Z" finished-at="2019-10-30T17:10:07Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="beforeclass" is-config="true" duration-ms="132" started-at="2019-11-06T10:38:09Z" finished-at="2019-11-06T10:38:09Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginRunner.beforeclass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="feature" duration-ms="61711" started-at="2019-10-30T17:10:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-30T17:11:09Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="feature" duration-ms="69790" started-at="2019-11-06T10:38:09Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-06T10:39:19Z">
           <params>
             <param index="0">
               <value>
@@ -214,14 +214,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="testDownClass" is-config="true" duration-ms="5" started-at="2019-10-30T17:11:09Z" finished-at="2019-10-30T17:11:09Z">
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="testDownClass" is-config="true" duration-ms="5" started-at="2019-11-06T10:39:19Z" finished-at="2019-11-06T10:39:19Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginRunner.testDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="tearDownClass" is-config="true" duration-ms="1165" started-at="2019-10-30T17:11:09Z" finished-at="2019-10-30T17:11:10Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.LoginRunner@7c16905e]" name="tearDownClass" is-config="true" duration-ms="952" started-at="2019-11-06T10:39:19Z" finished-at="2019-11-06T10:39:20Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
@@ -230,23 +230,23 @@
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cucumber.TestRunner.LoginRunner -->
     </test> <!-- LoginRunner -->
-    <test name="BookTick" duration-ms="29073" started-at="2019-10-30T11:41:10Z" finished-at="2019-10-30T11:41:40Z">
+    <test name="BookTick" duration-ms="23398" started-at="2019-11-06T05:09:20Z" finished-at="2019-11-06T05:09:43Z">
       <class name="com.cucumber.TestRunner.BookTicketRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="setUpClass" is-config="true" duration-ms="113" started-at="2019-10-30T17:11:10Z" finished-at="2019-10-30T17:11:11Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="setUpClass" is-config="true" duration-ms="79" started-at="2019-11-06T10:39:20Z" finished-at="2019-11-06T10:39:20Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="beforeclass" is-config="true" duration-ms="28" started-at="2019-10-30T17:11:11Z" finished-at="2019-10-30T17:11:11Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="beforeclass" is-config="true" duration-ms="29" started-at="2019-11-06T10:39:20Z" finished-at="2019-11-06T10:39:20Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BookTicketRunner.beforeclass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="feature" duration-ms="28625" started-at="2019-10-30T17:11:11Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-30T17:11:39Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="feature" duration-ms="23101" started-at="2019-11-06T10:39:20Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-06T10:39:43Z">
           <params>
             <param index="0">
               <value>
@@ -269,14 +269,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="testDownClass" is-config="true" duration-ms="1" started-at="2019-10-30T17:11:39Z" finished-at="2019-10-30T17:11:39Z">
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="testDownClass" is-config="true" duration-ms="8" started-at="2019-11-06T10:39:43Z" finished-at="2019-11-06T10:39:43Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BookTicketRunner.testDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="tearDownClass" is-config="true" duration-ms="288" started-at="2019-10-30T17:11:39Z" finished-at="2019-10-30T17:11:40Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@475530b9]" name="tearDownClass" is-config="true" duration-ms="161" started-at="2019-11-06T10:39:43Z" finished-at="2019-11-06T10:39:43Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
@@ -285,23 +285,23 @@
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cucumber.TestRunner.BookTicketRunner -->
     </test> <!-- BookTick -->
-    <test name="Registration" duration-ms="141323" started-at="2019-10-30T11:41:40Z" finished-at="2019-10-30T11:44:01Z">
+    <test name="Registration" duration-ms="98426" started-at="2019-11-06T05:09:43Z" finished-at="2019-11-06T05:11:22Z">
       <class name="com.cucumber.TestRunner.RegistrationRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="setUpClass" is-config="true" duration-ms="58" started-at="2019-10-30T17:11:40Z" finished-at="2019-10-30T17:11:40Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="setUpClass" is-config="true" duration-ms="47" started-at="2019-11-06T10:39:43Z" finished-at="2019-11-06T10:39:43Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="beforeclass" is-config="true" duration-ms="52" started-at="2019-10-30T17:11:40Z" finished-at="2019-10-30T17:11:40Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="beforeclass" is-config="true" duration-ms="27" started-at="2019-11-06T10:39:43Z" finished-at="2019-11-06T10:39:43Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : RegistrationRunner.beforeclass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="feature" duration-ms="50961" started-at="2019-10-30T17:11:40Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-30T17:12:31Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="feature" duration-ms="20965" started-at="2019-11-06T10:39:43Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-06T10:40:04Z">
           <params>
             <param index="0">
               <value>
@@ -324,7 +324,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="feature" duration-ms="49804" started-at="2019-10-30T17:12:31Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-30T17:13:20Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="feature" duration-ms="42209" started-at="2019-11-06T10:40:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-06T10:40:47Z">
           <params>
             <param index="0">
               <value>
@@ -347,7 +347,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="feature" duration-ms="40138" started-at="2019-10-30T17:13:20Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-30T17:14:01Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="feature" duration-ms="34971" started-at="2019-11-06T10:40:47Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-06T10:41:22Z">
           <params>
             <param index="0">
               <value>
@@ -370,14 +370,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="testDownClass" is-config="true" duration-ms="1" started-at="2019-10-30T17:14:01Z" finished-at="2019-10-30T17:14:01Z">
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="testDownClass" is-config="true" duration-ms="2" started-at="2019-11-06T10:41:22Z" finished-at="2019-11-06T10:41:22Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : RegistrationRunner.testDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="tearDownClass" is-config="true" duration-ms="250" started-at="2019-10-30T17:14:01Z" finished-at="2019-10-30T17:14:01Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.RegistrationRunner@59fa1d9b]" name="tearDownClass" is-config="true" duration-ms="169" started-at="2019-11-06T10:41:22Z" finished-at="2019-11-06T10:41:22Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>

@@ -11,7 +11,7 @@ import com.cucumber.enums.Environment;
 public class ConfigFileReader {
 
 	private static Properties pro;
-	private final String propertyFilePath = "configs//Configuation.properties";
+	private final String propertyFilePath = System.getProperty("user.dir")+"/src/test/resources/configs/Configuation.properties";
 
 	public ConfigFileReader() {
 
