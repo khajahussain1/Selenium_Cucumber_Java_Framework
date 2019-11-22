@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34913" started-at="2019-10-24T12:26:06Z" finished-at="2019-10-24T12:26:41Z">
+  <suite name="Default suite" duration-ms="30572" started-at="2019-11-09T10:19:30Z" finished-at="2019-11-09T10:20:00Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="34913" started-at="2019-10-24T12:26:06Z" finished-at="2019-10-24T12:26:41Z">
+    <test name="Default test" duration-ms="30572" started-at="2019-11-09T10:19:30Z" finished-at="2019-11-09T10:20:00Z">
       <class name="com.cucumber.TestRunner.BookTicketRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="setUpClass" is-config="true" duration-ms="512" started-at="2019-10-24T17:56:06Z" finished-at="2019-10-24T17:56:06Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="setUpClass" is-config="true" duration-ms="528" started-at="2019-11-09T15:49:30Z" finished-at="2019-11-09T15:49:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="beforeclass" is-config="true" duration-ms="273" started-at="2019-10-24T17:56:06Z" finished-at="2019-10-24T17:56:07Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="beforeclass" is-config="true" duration-ms="90" started-at="2019-11-09T15:49:30Z" finished-at="2019-11-09T15:49:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="feature" duration-ms="33144" started-at="2019-10-24T17:56:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-24T17:56:40Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="feature" duration-ms="28096" started-at="2019-11-09T15:49:30Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-09T15:49:58Z">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="testDownClass" is-config="true" duration-ms="4" started-at="2019-10-24T17:56:40Z" finished-at="2019-10-24T17:56:40Z">
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="testDownClass" is-config="true" duration-ms="4" started-at="2019-11-09T15:49:58Z" finished-at="2019-11-09T15:49:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="tearDownClass" is-config="true" duration-ms="824" started-at="2019-10-24T17:56:40Z" finished-at="2019-10-24T17:56:41Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.BookTicketRunner@ff5b51f]" name="tearDownClass" is-config="true" duration-ms="1728" started-at="2019-11-09T15:49:58Z" finished-at="2019-11-09T15:50:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
