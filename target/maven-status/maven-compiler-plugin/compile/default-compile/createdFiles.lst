@@ -12,6 +12,7 @@ com\cucumber\enums\Environment.class
 com\cucumber\managers\FileReaderManager.class
 com\cucumber\utility\JiraXmlDemo.class
 com\cucumber\PageObjects\LoginPageObjects.class
+com\cucumber\utility\ReadORFile.class
 com\cucumber\enums\Context.class
 com\cucumber\utility\TestContext.class
 com\cucumber\PageObjects\HomepagePageObjects.class
